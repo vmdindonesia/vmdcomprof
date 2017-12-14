@@ -12,16 +12,16 @@
 <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 <title>Startup-Pro</title>
 
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>/appsources/css/animate.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>/appsources/css/bootstrap.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>/appsources/css/font-awesome.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>/appsources/css/owl.carousel.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>/appsources/css/owl.theme.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>/appsources/css/jquery.fancybox.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>/appsources/css/reset.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>/appsources/css/bicon.min.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>/appsources/css/nouislider.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>/appsources/css/style.css" />
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/animate.css" />
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/owl.carousel.css" />
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/owl.theme.css" />
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/jquery.fancybox.css" />
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/bicon.min.css" />
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/nouislider.css" />
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/style.css" />
 
 <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
@@ -918,23 +918,23 @@ aliquip commodo consequat.
 <div class="offcanvas_overlay"></div>
 
 
-<script type="text/javascript" src="<?=base_url()?>/appsources/js/coatFlow.js"></script>
-<script type="text/javascript" src="<?=base_url()?>/appsources/js/subscriptions.js"></script>
+<script type="text/javascript" src="<?=base_url()?>appsources/js/coatFlow.js"></script>
+<script type="text/javascript" src="<?=base_url()?>appsources/js/subscriptions.js"></script>
 <script type="text/javascript">
 		startFlowSwitcher();
 	</script>
-<script src="<?=base_url()?>/appsources/js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="<?=base_url()?>/appsources/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="<?=base_url()?>/appsources/js/nouislider.min.js"></script>
-<script type="text/javascript" src="<?=base_url()?>/appsources/js/d3_pricing.js"></script>
-<script src="<?=base_url()?>/appsources/js/jquery.animateNumber.min.js"></script>
-<script type="text/javascript" src="<?=base_url()?>/appsources/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="<?=base_url()?>/appsources/js/js-functions.js"></script>
-<script type="text/javascript" src="<?=base_url()?>/appsources/js/custom.js"></script>
-<script type="text/javascript" src="<?=base_url()?>/appsources/js/jquery.js"></script>
-<script type="text/javascript" src="<?=base_url()?>/appsources/js/jquery-2.1.1.js"></script>
-<script type="text/javascript" src="<?=base_url()?>/appsources/js/carousel-3d.js"></script>
-<script type="text/javascript" src="<?=base_url()?>/appsources/js/jquery.carouFred.js"></script>
-<script type="text/javascript" src="<?=base_url()?>/appsources/js/scripts.js"></script>
+<script src="<?=base_url()?>appsources/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="<?=base_url()?>appsources/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?=base_url()?>appsources/js/nouislider.min.js"></script>
+<script type="text/javascript" src="<?=base_url()?>appsources/js/d3_pricing.js"></script>
+<script src="<?=base_url()?>appsources/js/jquery.animateNumber.min.js"></script>
+<script type="text/javascript" src="<?=base_url()?>appsources/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="<?=base_url()?>appsources/js/js-functions.js"></script>
+<script type="text/javascript" src="<?=base_url()?>appsources/js/custom.js"></script>
+<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.js"></script>
+<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="<?=base_url()?>appsources/js/carousel-3d.js"></script>
+<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.carouFred.js"></script>
+<script type="text/javascript" src="<?=base_url()?>appsources/js/scripts.js"></script>
 </body>
 </html>
