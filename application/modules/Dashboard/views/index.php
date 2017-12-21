@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 	<!--title-->
-    <title>Octopus | Onepage HTML Responsive Parallax Template</title>
+    <title>VMD | Vission Mobile Developer</title>
 	
 	<!--CSS-->
     <link href="<?=base_url()?>appsources/css/bootstrap.min.css" rel="stylesheet">
@@ -40,21 +40,21 @@
 			<div class="carousel-inner">
 				<div class="item active" style="background-image: url(<?=base_url()?>appsources/images/home/1.jpg)">
 					<div class="carousel-caption">
-						<h1 class="animated fadeInUpBig"><strong>unique</strong> and <strong>Creative</strong> Design</h1>
-						<h2 class="animated zoomIn">I am <span>octopus</span></h2>
-						<p class="animated fadeInDownBig">For Creative Agency</p>
+						<h1 class="animated fadeInUpBig"><strong>Vission Mobile Developer</strong> </h1>
+						<h2 class="animated zoomIn">I am <span>VMD</span></h2>
+						<p class="animated fadeInDownBig">Your Technology Solution</p>
 					</div>					
 				</div>
 				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/2.jpg)">
 					<div class="carousel-caption">						
-						<h1 class="animated fadeInUpBig">We <strong>love</strong> to <strong>design</strong></h1>
-						<h2 class="animated zoomIn">Awesome <span>themes </span></h2>
-						<p class="animated fadeInDownBig">We are happy with you are !</p>
+						<h1 class="animated fadeInUpBig">We <strong>love</strong> to <strong>learn</strong></h1>
+						<h2 class="animated zoomIn">Awesome <span>Engineer </span></h2>
+						<p class="animated fadeInDownBig">We are solve your problem !</p>
 					</div>
 				</div>
 				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/3.jpg)">
 					<div class="carousel-caption">						
-						<h1 class="animated fadeInUpBig">We <strong>think</strong> to <strong>create</strong></h1>
+						<h1 class="animated fadeInUpBig">We <strong>think</strong> to <strong>improve</strong></h1>
 						<h2 class="animated zoomIn">Something <span>Special</span></h2>
 						<p class="animated fadeInDownBig">Features For Your Business</p>
 					</div>
@@ -62,7 +62,7 @@
 				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/4.jpg)">
 					<div class="carousel-caption">						
 						<h1 class="animated fadeInUpBig">We <strong>enjoy</strong> your <strong>Smile</strong></h1>
-						<h2 class="animated zoomIn">We get<span> speed</span></h2>
+						<h2 class="animated zoomIn">We get<span> right on target</span></h2>
 						<p class="animated fadeInDownBig">When you Encourage us</p>
 					</div>
 				</div>
@@ -88,17 +88,18 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><h1><img class="img-responsive" src="<?=base_url()?>appsources/images/logo.png" alt="logo"></h1></a>
+                    <a class="navbar-brand" href="index.html"><h1><img class="img-responsive" width="130px" style="margin-left:200px" src="<?=base_url()?>appsources/images/vmd.png" alt="logo"></h1></a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="scroll active"><a href="#main-carousel">Home</a></li> 
-						<li class="scroll"><a href="#about-us">About Us</a></li>                        
-                        <li class="scroll"><a href="#why-us">Why like Us</a></li>
-						<li class="scroll"><a href="#portfolio">Portfolio</a></li>
-						<li class="scroll"><a href="#our-team">Team</a></li>                       
-                        <li class="scroll"><a href="#hot-octopus">Hot Features</a></li> 
-                        <li class="scroll"><a href="#blog">Blog</a></li>
+						<li class="scroll"><a href="#about-us">About Us</a></li>
+						<li class="scroll"><a href="#our-team">Team</a></li>
+						<li class="scroll"><a href="#our-team">Vission And Mission</a></li>                        
+						<li class="scroll"><a href="#portfolio">Product</a></li>
+						<!-- <li class="scroll"><a href="#our-team">Team</a></li>                        -->
+                        <li class="scroll"><a href="#hot-octopus">Client</a></li> 
+                        <!-- <li class="scroll"><a href="#blog">Blog</a></li> -->
                         <li class="scroll"><a href="#contact-us">Contact</a></li>                        
                     </ul>
                 </div>
