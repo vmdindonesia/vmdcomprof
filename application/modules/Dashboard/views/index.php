@@ -23,11 +23,11 @@
 	    <script src="<?=base_url()?>appsources/js/html5shiv.js"></script>
 	    <script src="<?=base_url()?>appsources/js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="<?=base_url()?>appsources/images/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?=base_url()?>appsources/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=base_url()?>appsources/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?=base_url()?>appsources/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="<?=base_url()?>appsources/images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 <body>
 	<!-- Page Loader -->
@@ -38,28 +38,28 @@
 	<div id="main-carousel">
 		<div id="home-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 			<div class="carousel-inner">
-				<div class="item active" style="background-image: url(images/home/1.jpg)">
+				<div class="item active" style="background-image: url(<?=base_url()?>appsources/images/home/1.jpg)">
 					<div class="carousel-caption">
 						<h1 class="animated fadeInUpBig"><strong>unique</strong> and <strong>Creative</strong> Design</h1>
 						<h2 class="animated zoomIn">I am <span>octopus</span></h2>
 						<p class="animated fadeInDownBig">For Creative Agency</p>
 					</div>					
 				</div>
-				<div class="item" style="background-image: url(images/home/2.jpg)">
+				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/2.jpg)">
 					<div class="carousel-caption">						
 						<h1 class="animated fadeInUpBig">We <strong>love</strong> to <strong>design</strong></h1>
 						<h2 class="animated zoomIn">Awesome <span>themes </span></h2>
 						<p class="animated fadeInDownBig">We are happy with you are !</p>
 					</div>
 				</div>
-				<div class="item" style="background-image: url(images/home/3.jpg)">
+				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/3.jpg)">
 					<div class="carousel-caption">						
 						<h1 class="animated fadeInUpBig">We <strong>think</strong> to <strong>create</strong></h1>
 						<h2 class="animated zoomIn">Something <span>Special</span></h2>
 						<p class="animated fadeInDownBig">Features For Your Business</p>
 					</div>
 				</div>
-				<div class="item" style="background-image: url(images/home/4.jpg)">
+				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/4.jpg)">
 					<div class="carousel-caption">						
 						<h1 class="animated fadeInUpBig">We <strong>enjoy</strong> your <strong>Smile</strong></h1>
 						<h2 class="animated zoomIn">We get<span> speed</span></h2>
@@ -88,7 +88,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1></a>
+                    <a class="navbar-brand" href="index.html"><h1><img class="img-responsive" src="<?=base_url()?>appsources/images/logo.png" alt="logo"></h1></a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -115,7 +115,7 @@
 				</div>				
 			</div>
 			<div class="bout-us-image">
-				<img class="img-responsive" src="images/about-us/devices.png" alt="" />
+				<img class="img-responsive" src="<?=base_url()?>appsources/images/about-us/devices.png" alt="" />
 			</div>
 			<div class="row">
 				<div class="col-md-3 col-sm-6 about-content">					
@@ -306,17 +306,17 @@
 							<div class="tab-content">
 								<div class="tab-pane fade in active off-white" id="html5">
 									<h2>We love to work with HTML5</h2>
-									<img class="img-responsive" src="images/accordion/accordion1.jpg" alt="accordion" />
+									<img class="img-responsive" src="<?=base_url()?>appsources/images/accordion/accordion1.jpg" alt="accordion" />
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
 								</div>
 								<div class="tab-pane fade off-white" id="css3">
 									<h2>We love to work with CSS3</h2>
-									<img class="img-responsive" src="images/accordion/accordion2.jpg" alt="accordion" />
+									<img class="img-responsive" src="<?=base_url()?>appsources/images/accordion/accordion2.jpg" alt="accordion" />
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
 								</div>
 								<div class="tab-pane fade off-white" id="web-design">
 									<h2>We love to Design</h2>
-									<img class="img-responsive" src="images/accordion/accordion3.jpg" alt="accordion" />
+									<img class="img-responsive" src="<?=base_url()?>appsources/images/accordion/accordion3.jpg" alt="accordion" />
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
 								</div>
 							</div>	
@@ -400,73 +400,73 @@
 				<div class="row portfolio-items">
 					<div class="col-sm-4 col-md-3 portfolio-item print-design video">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/1.jpg" alt="">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/1.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>	
 					</div>
 					<div class="col-sm-4 col-md-3 portfolio-item graphic video">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/2.jpg" alt="">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/2.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>	
 					</div>
 					<div class="col-sm-4 col-md-3 portfolio-item print-design art">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/3.jpg" alt="">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/3.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>	
 					</div>
 					<div class="col-sm-4 col-md-3 portfolio-item video art photography">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/4.jpg" alt="">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/4.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>	
 					</div>
 					<div class="col-sm-4 col-md-3 portfolio-item video art">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/5.jpg" alt="">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/5.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>	
 					</div>
 					<div class="col-sm-4 col-md-3 portfolio-item photography graphic">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/6.jpg" alt="">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/6.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>	
 					</div>
 					<div class="col-sm-4 col-md-3 portfolio-item video art">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/7.jpg" alt="">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/7.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>						
 					</div>
 					<div class="col-sm-4 col-md-3 portfolio-item photography graphic print-design">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/8.jpg" alt="">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/8.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>	
 					</div>					
@@ -486,15 +486,15 @@
 						<div id="testimonial-carousel" class="carousel slide" data-ride="carousel">						
 							<div class="carousel-inner text-center">							
 								<div class="item active">							
-									<img class="img-responsive img-circle" src="images/testimonial/client1.jpg" alt="" />
+									<img class="img-responsive img-circle" src="<?=base_url()?>appsources/images/testimonial/client1.jpg" alt="" />
 									<p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
 								</div>
 								<div class="item">							
-									<img class="img-responsive img-circle" src="images/testimonial/client2.jpg" alt="" />
+									<img class="img-responsive img-circle" src="<?=base_url()?>appsources/images/testimonial/client2.jpg" alt="" />
 									<p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
 								</div>
 								<div class="item">							
-									<img class="img-responsive img-circle" src="images/testimonial/client3.jpg" alt="" />
+									<img class="img-responsive img-circle" src="<?=base_url()?>appsources/images/testimonial/client3.jpg" alt="" />
 									<p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
 								</div>
 							</div>
@@ -518,7 +518,7 @@
                     <div class="col-sm-6 col-md-3">
 						<div class="member">
 							<div class="member-image">
-								<img class="img-responsive" src="images/team/member1.jpg" alt="">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member1.jpg" alt="">
 								<div class="member-overlay">
 									<a href="#"><i class="fa fa-plus"></i></a>	
 								</div>
@@ -538,7 +538,7 @@
                     <div class="col-sm-6 col-md-3">
 						<div class="member">
 							<div class="member-image">
-								<img class="img-responsive" src="images/team/member2.jpg" alt="">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member2.jpg" alt="">
 								<div class="member-overlay">
 									<a href="#"><i class="fa fa-plus"></i></a>	
 								</div>
@@ -558,7 +558,7 @@
                    <div class="col-sm-6 col-md-3">
 						<div class="member">
 							<div class="member-image">
-								<img class="img-responsive" src="images/team/member3.jpg" alt="">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member3.jpg" alt="">
 								<div class="member-overlay">
 									<a href="#"><i class="fa fa-plus"></i></a>	
 								</div>
@@ -578,7 +578,7 @@
                     <div class="col-sm-6 col-md-3">
 						<div class="member">
 							<div class="member-image">
-								<img class="img-responsive" src="images/team/member4.jpg" alt="">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member4.jpg" alt="">
 								<div class="member-overlay">
 									<a href="#"><i class="fa fa-plus"></i></a>	
 								</div>
@@ -631,7 +631,7 @@
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-4">	
-						<img class="img-responsive" src="images/hot-features/hot-features-bg.png" alt="" />
+						<img class="img-responsive" src="<?=base_url()?>appsources/images/hot-features/hot-features-bg.png" alt="" />
 					</div>				
 					<div class="col-sm-6 col-md-4">
 						<div class="hot-feature">
@@ -701,7 +701,7 @@
 					<div class="blog-content">
 						<div class="entry-header">
 							<div class="blog-image">
-								<img class="img-responsive" src="images/blog/post1.jpg" alt="" />
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/blog/post1.jpg" alt="" />
 								<div class="more-link">
 									<a href="#"><i class="fa fa-plus"></i></a>
 								</div>
@@ -725,7 +725,7 @@
 					<div class="blog-content">
 						<div class="entry-header">
 							<div class="blog-image">
-								<img class="img-responsive" src="images/blog/post2.jpg" alt="" />
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/blog/post2.jpg" alt="" />
 								<div class="more-link">
 									<a href="#"><i class="fa fa-plus"></i></a>
 								</div>
@@ -749,7 +749,7 @@
 					<div class="blog-content">
 						<div class="entry-header">
 							<div class="blog-image">
-								<img class="img-responsive" src="images/blog/post3.jpg" alt="" />
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/blog/post3.jpg" alt="" />
 								<div class="more-link">
 									<a href="#"><i class="fa fa-plus"></i></a>
 								</div>
@@ -773,7 +773,7 @@
 					<div class="blog-content">
 						<div class="entry-header">
 							<div class="blog-image">
-								<img class="img-responsive" src="images/blog/post4.jpg" alt="" />
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/blog/post4.jpg" alt="" />
 								<div class="more-link">
 									<a href="#"><i class="fa fa-plus"></i></a>
 								</div>
