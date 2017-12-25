@@ -415,8 +415,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-content:hover .about-icon, 
 .hot-feature:hover .icon{
-	background-color:#db2429;
-	border-color:#db2429;
+	background-color:#000000;
+	border-color:#000000;
 	color:#fff;
 	
 }
@@ -431,7 +431,7 @@ h1, h2, h3, h4, h5, h6 {
 	bottom:-21px;
 	border-width: 12px ;
 	border-style:solid;
-	border-color:#db2429 transparent transparent;	
+	border-color:#088A85 transparent transparent;	
 }
 
 .about-text h3 {

@@ -38,28 +38,28 @@
 	<div id="main-carousel">
 		<div id="home-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 			<div class="carousel-inner">
-				<div class="item active" style="background-image: url(<?=base_url()?>appsources/images/home/1.jpg)">
+				<div class="item active" style="background-image: url(<?=base_url()?>appsources/images/home/new1.jpg)">
 					<div class="carousel-caption">
 						<h1 class="animated fadeInUpBig"><strong>Vission Mobile Developer</strong> </h1>
 						<h2 class="animated zoomIn">I am <span>VMD</span></h2>
 						<p class="animated fadeInDownBig">Your Technology Solution</p>
 					</div>					
 				</div>
-				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/2.jpg)">
+				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/new2.jpg)">
 					<div class="carousel-caption">						
 						<h1 class="animated fadeInUpBig">We <strong>love</strong> to <strong>learn</strong></h1>
 						<h2 class="animated zoomIn">Awesome <span>Engineer </span></h2>
 						<p class="animated fadeInDownBig">We are solve your problem !</p>
 					</div>
 				</div>
-				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/3.jpg)">
+				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/new3.jpg)">
 					<div class="carousel-caption">						
 						<h1 class="animated fadeInUpBig">We <strong>think</strong> to <strong>improve</strong></h1>
 						<h2 class="animated zoomIn">Something <span>Special</span></h2>
 						<p class="animated fadeInDownBig">Features For Your Business</p>
 					</div>
 				</div>
-				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/4.jpg)">
+				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/new4.jpg)">
 					<div class="carousel-caption">						
 						<h1 class="animated fadeInUpBig">We <strong>enjoy</strong> your <strong>Smile</strong></h1>
 						<h2 class="animated zoomIn">We get<span> right on target</span></h2>
@@ -88,7 +88,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><h1><img class="img-responsive" width="130px" style="margin-left:200px" src="<?=base_url()?>appsources/images/vmd.png" alt="logo"></h1></a>
+                    <a class="navbar-brand" href="index.html"><h1><img class="img-responsive" width="100px" style="margin-left:120%" src="<?=base_url()?>appsources/images/vmd.png" alt="logo"></h1></a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -112,11 +112,11 @@
 			<div class="row section-title">
 				<div class="col-sm-8 col-sm-offset-2">
 					<h2>About Us</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+					<p>VMD (Vision Mobile Developer) is a leading company to help our customer to align Business and Information Technology, Train people and Manage the future operating strategy and model to get IT Benefit, such as leverage people, Technology and Bussiness Improvement.</p>
 				</div>				
 			</div>
 			<div class="bout-us-image">
-				<img class="img-responsive" src="<?=base_url()?>appsources/images/about-us/devices.png" alt="" />
+				<img class="img-responsive" src="<?=base_url()?>appsources/images/about-us/devices_2.png" alt="" />
 			</div>
 			<div class="row">
 				<div class="col-md-3 col-sm-6 about-content">					
