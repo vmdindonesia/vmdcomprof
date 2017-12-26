@@ -123,12 +123,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-toggle {
-	border:1px solid #df392e;
+	border:1px solid #088A85;
 	margin-top:15px;
 }
 
 .navbar-toggle .icon-bar {
-	background-color: #df392e;
+	background-color: #088A85;
 }
 
 .btn-primary {
@@ -226,8 +226,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel-caption h2 span {
-	color:#df392e
+	color:#000000
 }
+
+.carousel-caption h2 span {
+	color:#088A85
+}
+
 
 .main-carousel-left, 
 .main-carousel-right {
@@ -366,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
 #navigation .navbar-right li a:hover, 
 #navigation .navbar-right li a:focus, 
 #navigation .navbar-right li.active a  {
-	color:#df392e;
+	color:#088A85;
 }
 
 
@@ -410,8 +415,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-content:hover .about-icon, 
 .hot-feature:hover .icon{
-	background-color:#db2429;
-	border-color:#db2429;
+	background-color:#000000;
+	border-color:#000000;
 	color:#fff;
 	
 }
@@ -426,7 +431,7 @@ h1, h2, h3, h4, h5, h6 {
 	bottom:-21px;
 	border-width: 12px ;
 	border-style:solid;
-	border-color:#db2429 transparent transparent;	
+	border-color:#088A85 transparent transparent;	
 }
 
 .about-text h3 {
