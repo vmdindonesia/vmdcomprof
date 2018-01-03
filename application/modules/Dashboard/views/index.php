@@ -23,7 +23,7 @@
 	    <script src="<?=base_url()?>appsources/js/html5shiv.js"></script>
 	    <script src="<?=base_url()?>appsources/js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="<?=base_url()?>appsources/images/ico/favicon.png">
+    <link rel="shortcut icon" href="<?=base_url()?>appsources/images/ico/pp.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?=base_url()?>appsources/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=base_url()?>appsources/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?=base_url()?>appsources/images/ico/apple-touch-icon-72-precomposed.png">
@@ -98,7 +98,7 @@
 						<li class="scroll"><a href="#our-team">Vission And Mission</a></li>                        
 						<li class="scroll"><a href="#portfolio">Product</a></li>
 						<!-- <li class="scroll"><a href="#our-team">Team</a></li>                        -->
-                        <li class="scroll"><a href="#hot-octopus">Client</a></li> 
+                        <li class="scroll"><a href="#hot-VMD">Client</a></li> 
                         <!-- <li class="scroll"><a href="#blog">Blog</a></li> -->
                         <li class="scroll"><a href="#contact-us">Contact</a></li>                        
                     </ul>
@@ -163,9 +163,9 @@
 		<div class="parallax-content">
 			<div class="color-overlay"></div>
 			<div class="container text-center">
-				<h2>Octopus has unique and modern design!</h2>
-				<p>Designed for Creative Agency</p>
-				<a href="#" class="btn btn-primary">Buy Theme</a>
+				<h2>VMD has unique and modern Products!</h2>
+				<p>Develope for Creative Software</p>
+				<a href="#" class="btn btn-primary">Book!</a>
 			</div>
 		</div>		
 	</div><!--/parallax-section--> 
@@ -285,17 +285,17 @@
 		</div>		
 	</div><!--/parallax-section-->		
 	
-	<section id="why-octopus" class="padding-top padding-bottom">
+	<section id="why-VMD" class="padding-top padding-bottom">
 		<div class="container">
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h2>Why Octopus</h2>
+					<h2> Why <span>VMD</span></h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
 				</div>				
 			</div>
 			<div class="row">
 				<div class="col-sm-6">
-					<div class="row octopus-tab">
+					<div class="row VMD-tab">
 						<div class="col-sm-3">
 							<ul class="tab-list" role="tablist">
 								<li class="active"><a href="#html5" role="tab" data-toggle="tab"><i class="fa fa-html5"></i> HTML5</a></li>
@@ -378,7 +378,7 @@
 				</div>
 			</div>
 		</div>
-	</section><!--/#why-octopus-->
+	</section><!--/#why-VMD-->
 	
 	<section id="portfolio" class="padding-top padding-bottom off-white">
 		<div class="container">
@@ -488,15 +488,15 @@
 							<div class="carousel-inner text-center">							
 								<div class="item active">							
 									<img class="img-responsive img-circle" src="<?=base_url()?>appsources/images/testimonial/client1.jpg" alt="" />
-									<p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
+									<p>VMD is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team VMD. <span>CEO, Google</span> </p>							
 								</div>
 								<div class="item">							
 									<img class="img-responsive img-circle" src="<?=base_url()?>appsources/images/testimonial/client2.jpg" alt="" />
-									<p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
+									<p>VMD is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team VMD. <span>CEO, Google</span> </p>							
 								</div>
 								<div class="item">							
 									<img class="img-responsive img-circle" src="<?=base_url()?>appsources/images/testimonial/client3.jpg" alt="" />
-									<p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
+									<p>VMD is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team VMD. <span>CEO, Google</span> </p>							
 								</div>
 							</div>
 						</div>					
@@ -601,11 +601,11 @@
         </div>
     </section><!--/#Our team-->
 	
-	<section id="hot-octopus" class="padding-top off-white">
+	<section id="hot-VMD" class="padding-top off-white">
 		<div class="container">
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h2>Hot with Octopus</h2>
+					<h2>Hot with VMD</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
 				</div>
 			</div>
@@ -657,7 +657,7 @@
 				</div>
 			</div>	
 		</div>
-	</section><!--/#hot-octopus-->
+	</section><!--/#hot-VMD-->
 	
 	<div id="twitter" class="text-center parallax-section">
 		<div class="parallax-content">
@@ -673,13 +673,13 @@
 						<div id="twitter-slide" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="item active">
-									<a href="#">Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>5 hours ago</span></a>
+									<a href="#">VMD is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>5 hours ago</span></a>
 								</div>
 								<div class="item">
-									<a href="#">Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>9 hours ago</span></a>
+									<a href="#">VMD is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>9 hours ago</span></a>
 								</div>
 								<div class="item">                                
-								   <a href="#">Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>2 hours ago</span></a>
+								   <a href="#">VMD is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>2 hours ago</span></a>
 								</div>
 							</div>                        
 						</div>                    
@@ -922,7 +922,7 @@
 						<ul>
 							<li><i class="fa fa-phone"></i> Phone: 262 695 2601</li>
 							<li><i class="fa fa-map-marker"></i> 1967 Fairfield Road Pewaukee, WI 53072 </li>
-							<li><i class="fa fa-envelope"></i><a href="#"> support@octopus-theme.com</a></li>
+							<li><i class="fa fa-envelope"></i><a href="#"> support@VMD-theme.com</a></li>
 						</ul>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 						<div class="social-icons">
@@ -947,7 +947,7 @@
 	
 	<footer id="footer">
 		<div class="container text-center">
-			<p>&copy; 2015 <a href="#">Octopus</a>. All rights reserved.</p>
+			<p>&copy; 2015 <a href="#">VMD</a>. All rights reserved.</p>
 		</div>
 		<a data-scroll href="#main-carousel" class="to-top"><i class="fa fa-angle-up"></i></a>
 	</footer><!--/#footer--> 
