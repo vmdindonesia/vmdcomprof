@@ -539,7 +539,7 @@
 <div class="product-wrapper">
 <div class="thumb-wrapper">
 <div class="tmember_image">
-<img class="img-responsive" src="images/jerry_mack.jpg" alt="Jerry Mack" />
+<img class="img-responsive" src="images/akis.JPG" alt="Jerry Mack" />
 </div>
 <div class="text_block">
 <h3 class="tmember_name">Jerry Mack</h3>

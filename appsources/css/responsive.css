@@ -71,6 +71,9 @@
 	}
 	.member {
 		margin-bottom:50px;
+		width: 100%;
+		height: 100%;
+	
 	}
 	.single-table {
 		margin-bottom:30px;

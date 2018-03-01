@@ -504,29 +504,29 @@
 				</div>				
 			</div>
 		</div>
-	</div><!--/#testimonial--> 
+	</div><!--/#foto team--> 
 
 	<section id="our-team" class="padding-top padding-bottom">
         <div class="container">
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h2>Our Team</h2>
+					<h2>Our Team</h2>0
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
 				</div>				
 			</div>	
             <div class="team-members text-center">
                 <div class="row">
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-5 col-md-3 space-photo1">
 						<div class="member">
 							<div class="member-image">
-								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member1.jpg" alt="">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/rendi.jpeg" alt="">
 								<div class="member-overlay">
 									<a href="#"><i class="fa fa-plus"></i></a>	
 								</div>
 							</div>																
 							<div class="member-info">
-								<h4>Marsha Burns</h4>
-								<p>UI/UX DESIGNER</p>
+								<h4>Rendy Sutandy</h4>
+								<p>Founder</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -536,17 +536,17 @@
 							</ul>
 						</div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-5 col-md-3 space-photo1">
 						<div class="member">
 							<div class="member-image">
-								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member2.jpg" alt="">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/fasha.jpeg">
 								<div class="member-overlay">
 									<a href="#"><i class="fa fa-plus"></i></a>	
 								</div>
 							</div>												
 							<div class="member-info">
-								<h4>Ronald Cook</h4>
-								<p>WEB DEVELOPER</p>
+								<h4>Fasha Darullah</h4>
+								<p>Co-Founder</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -556,17 +556,17 @@
 							</ul>
 						</div>
                     </div>
-                   <div class="col-sm-6 col-md-3">
+                   <div class="col-sm-5 col-md-3 space-photo1" >
 						<div class="member">
 							<div class="member-image">
-								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member3.jpg" alt="">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/aji.png">
 								<div class="member-overlay">
 									<a href="#"><i class="fa fa-plus"></i></a>	
 								</div>
 							</div>													
 							<div class="member-info">
-								<h4>Darlene D. Lyons</h4>
-								<p>MANAGER SUPPORT</p>
+								<h4>Aji Tirta </h4>
+								<p>Mobile Developer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -576,17 +576,17 @@
 							</ul>
 						</div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-5 col-md-3 space-photo1">
 						<div class="member">
 							<div class="member-image">
-								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member4.jpg" alt="">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/wira.jpeg" alt="">
 								<div class="member-overlay">
 									<a href="#"><i class="fa fa-plus"></i></a>	
 								</div>
 							</div>											
 							<div class="member-info">
-								<h4>Martin Black</h4>
-								<p>Web Developer</p>
+								<h4>Wira Satria</h4>
+								<p>Mobile Developer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -595,8 +595,171 @@
 								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
 							</ul>
 						</div>
-                    </div>
-                </div>
+					</div>
+					
+				<div class="col-sm-5 col-md-3 space-photo">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/akis.jpeg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>											
+							<div class="member-info">
+								<h4>Akis Latuconsina</h4>
+								<p>Mobile Developer</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-5 col-md-3 space-photo">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/wantek.jpeg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>											
+							<div class="member-info">
+								<h4>Haryanto Setiawan</h4>
+								<p>Mobile Developer</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-5 col-md-3 space-photo">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/riki.jpeg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>											
+							<div class="member-info">
+								<h4>Ricky Hermawan</h4>
+								<p>Mobile Developer</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+					</div>					
+					<div class="col-sm-5 col-md-3 space-photo">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/contact-bg.jpg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>											
+							<div class="member-info">
+								<h4>Rizki Ramadhan</h4>
+								<p>Mobile Developer</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-sm-5 col-md-3 space-photo">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/komeng.jpeg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>											
+							<div class="member-info">
+								<h4>Ricky Hermawan</h4>
+								<p>Mobile Developer</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100007477837967&ref=bookmarks"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+					</div>	
+					
+					<div class="col-sm-5 col-md-3 space-photo">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/raka.jpeg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>											
+							<div class="member-info">
+								<h4>Ricky Hermawan</h4>
+								<p>Mobile Developer</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+					</div>	
+					
+					<div class="col-sm-5 col-md-3 space-photo">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/riki.jpeg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>											
+							<div class="member-info">
+								<h4>Ricky Hermawan</h4>
+								<p>Mobile Developer</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+					</div>	
+					<div class="col-sm-5 col-md-3 space-photo">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/akmal.jpg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>											
+							<div class="member-info">
+								<h4>Ricky Hermawan</h4>
+								<p>Mobile Developer</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+					</div>							
             </div>            
         </div>
     </section><!--/#Our team-->
