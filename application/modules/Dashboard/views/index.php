@@ -1,940 +1,969 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!--[if IE]>
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <![endif]-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<!--title-->
+    <title>VMD | Vission Mobile Developer</title>
+	
+	<!--CSS-->
+    <link href="<?=base_url()?>appsources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=base_url()?>appsources/css/animate.css" rel="stylesheet">
+    <link href="<?=base_url()?>appsources/css/font-awesome.min.css" rel="stylesheet">
+	<link href="<?=base_url()?>appsources/css/prettyPhoto.css" rel="stylesheet">	
+	<link href="<?=base_url()?>appsources/css/main.css" rel="stylesheet">
+	<link href="<?=base_url()?>appsources/css/responsive.css" rel="stylesheet">
+	
+	<!--Google Font-->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600italic,600,700' rel='stylesheet' type='text/css'>	
 
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lt IE 9]>
+	    <script src="<?=base_url()?>appsources/js/html5shiv.js"></script>
+	    <script src="<?=base_url()?>appsources/js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="<?=base_url()?>appsources/images/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?=base_url()?>appsources/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=base_url()?>appsources/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?=base_url()?>appsources/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="<?=base_url()?>appsources/images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+<body>
+	<!-- Page Loader -->
+	<div class="preloader">
+        <div id="loaderImage"></div>
+    </div>
+	
+	<div id="main-carousel">
+		<div id="home-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="item active" style="background-image: url(<?=base_url()?>appsources/images/home/new1.jpg)">
+					<div class="carousel-caption">
+						<h1 class="animated fadeInUpBig"><strong>Vission Mobile Developer</strong> </h1>
+						<h2 class="animated zoomIn">I am <span>VMD</span></h2>
+						<p class="animated fadeInDownBig">Your Technology Solution</p>
+					</div>					
+				</div>
+				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/new2.jpg)">
+					<div class="carousel-caption">						
+						<h1 class="animated fadeInUpBig">We <strong>love</strong> to <strong>learn</strong></h1>
+						<h2 class="animated zoomIn">Awesome <span>Engineer </span></h2>
+						<p class="animated fadeInDownBig">We are solve your problem !</p>
+					</div>
+				</div>
+				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/new3.jpg)">
+					<div class="carousel-caption">						
+						<h1 class="animated fadeInUpBig">We <strong>think</strong> to <strong>improve</strong></h1>
+						<h2 class="animated zoomIn">Something <span>Special</span></h2>
+						<p class="animated fadeInDownBig">Features For Your Business</p>
+					</div>
+				</div>
+				<div class="item" style="background-image: url(<?=base_url()?>appsources/images/home/new4.jpg)">
+					<div class="carousel-caption">						
+						<h1 class="animated fadeInUpBig">We <strong>enjoy</strong> your <strong>Smile</strong></h1>
+						<h2 class="animated zoomIn">We get<span> right on target</span></h2>
+						<p class="animated fadeInDownBig">When you Encourage us</p>
+					</div>
+				</div>
+			</div>
+			<a class="main-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+			<a class="main-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+		</div> 
+		<a data-scroll class="smooth-scroll" href="#navigation">
+			<div class="mouse-icon">
+				<div class="wheel"></div>
+				<i class="fa fa-angle-down"></i>
+			</div>			
+		</a>
+    </div><!--/#main-carousel--> 
+	
+	<div id="navigation">
+        <div class="navbar" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><h1><img class="img-responsive" width="100px" style="margin-left:120%" src="<?=base_url()?>appsources/images/vmd.png" alt="logo"></h1></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="scroll active"><a href="#main-carousel">Home</a></li> 
+						<li class="scroll"><a href="#about-us">About Us</a></li>
+						<li class="scroll"><a href="#our-team">Team</a></li>
+						<li class="scroll"><a href="#our-team">Vission And Mission</a></li>                        
+						<li class="scroll"><a href="#portfolio">Product</a></li>
+						<!-- <li class="scroll"><a href="#our-team">Team</a></li>                        -->
+                        <li class="scroll"><a href="#hot-octopus">Client</a></li> 
+                        <!-- <li class="scroll"><a href="#blog">Blog</a></li> -->
+                        <li class="scroll"><a href="#contact-us">Contact</a></li>                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!--/#navigation--> 
+	
+	<section id="about-us" class="padding-top off-white">		
+		<div class="container text-center">
+			<div class="row section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>About Us</h2>
+					<p>VMD (Vision Mobile Developer) is a leading company to help our customer to align Business and Information Technology, Train people and Manage the future operating strategy and model to get IT Benefit, such as leverage people, Technology and Bussiness Improvement.</p>
+				</div>				
+			</div>
+			<div class="bout-us-image">
+				<img class="img-responsive" src="<?=base_url()?>appsources/images/about-us/devices_2.png" alt="" />
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-users"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Creative Team</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-rocket"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Unique Design</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-envelope"></i>							
+					</div>
+					<div class="about-text">
+						<h3>24/7 Support</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-shield"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Great Security</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</section><!--/#about us-->		
+	
+	<div id="promo-one" class="parallax-section">
+		<div class="parallax-content">
+			<div class="color-overlay"></div>
+			<div class="container text-center">
+				<h2>Octopus has unique and modern design!</h2>
+				<p>Designed for Creative Agency</p>
+				<a href="#" class="btn btn-primary">Buy Theme</a>
+			</div>
+		</div>		
+	</div><!--/parallax-section--> 
+	
+	<section id="why-us" class="padding-top">
+		<div class="container">
+			<div class="row text-center section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>Why Like Us</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+				</div>				
+			</div>
+			<div class="row text-center like-us">
+				<div class="col-md-3 col-sm-6 about-content">
+					<div class="about-icon">
+						<i class="fa fa-bitbucket"></i>						
+					</div>
+					<div class="about-text">
+						<h3>Fresh Design</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">
+					<div class="about-icon">
+						<i class="fa fa-cloud"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Useful features</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-cog"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Easy Customization</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-coffee"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Preset Style</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-laptop"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Free Updates</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-paper-plane"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Fully Responsive</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-leaf"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Dropdown Menu</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-group (alias)"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Typhography</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+					</div>					
+				</div>				
+			</div>
+		</div>
+	</section><!--/why-us--> 
+	
+	<div id="promo-two" class="text-center parallax-section">
+		<div class="parallax-content">
+			<div class="color-overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3">
+						<i class="fa fa-clock-o"></i>	
+						<h3 class="timer" data-to="2700" data-speed="7000" data-from="0">hidden-time</h3>					
+						<h4>Hours Of Work</h4>
+					</div>
+					<div class="col-sm-3">
+						<i class="fa fa-heart"></i>	
+						<h3 class="timer" data-to="32" data-speed="5000" data-from="0">hidden-time</h3>
+						<h4>Clients Worked</h4>
+					</div>
+					<div class="col-sm-3">
+						<i class="fa fa-paper-plane"></i>	
+						<h3 class="timer" data-to="178" data-speed="5000" data-from="0">hidden-time</h3>
+						<h4>Project Done</h4>
+					</div>
+					<div class="col-sm-3">
+						<i class="fa fa-coffee"></i>	
+						<h3 class="timer" data-to="45" data-speed="5000" data-from="0">hidden-time</h3>
+						<h4>Cups of Coffee</h4>
+					</div>
+				</div>			
+			</div>
+		</div>		
+	</div><!--/parallax-section-->		
+	
+	<section id="why-octopus" class="padding-top padding-bottom">
+		<div class="container">
+			<div class="row text-center section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>Why Octopus</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+				</div>				
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="row octopus-tab">
+						<div class="col-sm-3">
+							<ul class="tab-list" role="tablist">
+								<li class="active"><a href="#html5" role="tab" data-toggle="tab"><i class="fa fa-html5"></i> HTML5</a></li>
+								<li><a href="#css3" role="tab" data-toggle="tab"><i class="fa fa-css3"></i> CSS3</a></li>
+								<li><a href="#web-design" role="tab" data-toggle="tab"><i class="fa fa-paper-plane"></i> Design</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-9">
+							<div class="tab-content">
+								<div class="tab-pane fade in active off-white" id="html5">
+									<h2>We love to work with HTML5</h2>
+									<img class="img-responsive" src="<?=base_url()?>appsources/images/accordion/accordion1.jpg" alt="accordion" />
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
+								</div>
+								<div class="tab-pane fade off-white" id="css3">
+									<h2>We love to work with CSS3</h2>
+									<img class="img-responsive" src="<?=base_url()?>appsources/images/accordion/accordion2.jpg" alt="accordion" />
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
+								</div>
+								<div class="tab-pane fade off-white" id="web-design">
+									<h2>We love to Design</h2>
+									<img class="img-responsive" src="<?=base_url()?>appsources/images/accordion/accordion3.jpg" alt="accordion" />
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
+								</div>
+							</div>	
+						</div>
+					</div>	
+				</div>
+				<div class="col-sm-6">
+					<div class="panel-group" id="accordion-two">
+						<div class="panel panel-default">
+							<div class="panel-heading active">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#professional"><i class="fa fa-magic"></i> Professional Design</a>
+								</h4>
+							</div>
+							<div id="professional" class="panel-collapse collapse in">
+								<div class="panel-body">									
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#customization"><i class="fa fa-cogs"></i> Easy Customization</a>
+								</h4>
+							</div>
+							<div id="customization" class="panel-collapse collapse">
+								<div class="panel-body">									
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#support"> <i class="fa fa-envelope"></i> 24/7 Support</a>
+								</h4>
+							</div>
+							<div id="support" class="panel-collapse collapse">
+								<div class="panel-body">									
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. </p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#help-desk"><i class="fa fa-bitbucket"></i> Live Help Desk</a>
+								</h4>
+							</div>
+							<div id="help-desk" class="panel-collapse collapse">
+								<div class="panel-body">									
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+								</div>
+							</div>
+						</div>
+					</div>				
+				</div>
+			</div>
+		</div>
+	</section><!--/#why-octopus-->
+	
+	<section id="portfolio" class="padding-top padding-bottom off-white">
+		<div class="container">
+			<div class="row text-center section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>Portfolio</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+				</div>				
+			</div>			
+			<div class="portfolio-wrapper">
+				<ul class="portfolio-filter text-center">                                         
+					<li><a class="active" href="#" data-filter="*">All</a></li>	
+					<li><a href="#" data-filter=".photography">Photography</a></li>
+					<li><a href="#" data-filter=".video">Video</a></li>
+					<li><a href="#" data-filter=".print-design">Print Design</a></li>
+					<li><a href="#" data-filter=".graphic">Graphic</a></li>
+					<li><a href="#" data-filter=".art">Art</a></li>
+				</ul><!--/#portfolio-filter-->
+				
+				<div class="row portfolio-items">
+					<div class="col-sm-4 col-md-3 portfolio-item print-design video">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/1.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>	
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item graphic video">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/2.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>	
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item print-design art">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/3.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>	
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item video art photography">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/4.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>	
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item video art">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/5.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>	
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item photography graphic">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/6.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>	
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item video art">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/7.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>						
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item photography graphic print-design">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/8.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>	
+					</div>					
+				</div>				
+			</div>
+		</div>
+	</section><!--/#portfolio-->	
+	
+	<div id="testimonial" class="parallax-section">
+		<div class="parallax-content">
+			<div class="color-overlay"></div>
+			<a class="testimony-left" href="#testimonial-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+			<a class="testimony-right" href="#testimonial-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+						<div id="testimonial-carousel" class="carousel slide" data-ride="carousel">						
+							<div class="carousel-inner text-center">							
+								<div class="item active">							
+									<img class="img-responsive img-circle" src="<?=base_url()?>appsources/images/testimonial/client1.jpg" alt="" />
+									<p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
+								</div>
+								<div class="item">							
+									<img class="img-responsive img-circle" src="<?=base_url()?>appsources/images/testimonial/client2.jpg" alt="" />
+									<p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
+								</div>
+								<div class="item">							
+									<img class="img-responsive img-circle" src="<?=base_url()?>appsources/images/testimonial/client3.jpg" alt="" />
+									<p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
+								</div>
+							</div>
+						</div>					
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div><!--/#testimonial--> 
 
-<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-<title>Startup-Pro</title>
-
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/animate.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/bootstrap.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/font-awesome.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/owl.carousel.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/owl.theme.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/jquery.fancybox.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/reset.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/bicon.min.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/nouislider.css" />
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>appsources/css/style.css" />
-
-<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
-</head>
-<body class="cms_index">
-
-<div id="header">
-<div class="mainnav">
-<div class="container">
-
-<div class="logo col-md-3 col-sm-8 col-xs-8">
-<a class="text_logo" href="#header">Startup-Pro</a>
-</div>
-
-
-<div class="col-md-9 col-sm-4 col-xs-4">
-<a id="offcanvas_toggler" class="visible-sm visible-xs" href="#"><i class="fa fa-bars"></i></a>
-<div class="main_navigation">
-<ul>
-<li><a class="h_menu" href="#services">Services</a></li>
-<li><a class="h_menu" href="#portfolio">Portfolio</a></li>
-<li><a class="h_menu" href="#testimonial">Testimonial</a></li>
-<li><a class="h_menu" href="#team">Team</a></li>
-<li><a class="h_menu" href="#blog">Blog</a></li>
-<li><a class="h_menu" href="#pricing">Pricing</a></li>
-<li><a class="h_menu" href="#newsletter"> Contact Us </a> </li>
-</ul>
-</div>
-</div>
-
-</div>
-</div>
-<div class="container">
-
-<div class="header_content">
-<h1>Create your page with <span>Startup-Pro</span></h1>
-<h4>A better way to present your store using fully featured Startup-Pro template. Powerful Apps, Used and Loved by More Than 5000 Companies All Around The World</h4>
-<a class="get_started_btn" href="#">Get Started Now</a>
-</div>
-
-
-<div class="brand_slider_wrapp">
-<div id="brand_slider" class="brand_slider hidden-buttons">
-<div class="slider-items slider-width-col6">
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="product-wrapper">
-<div class="thumb-wrapper">
-<a href="#"><img class="img-responsive" src="images/brands/logo8.png" alt="Brand imgae" /></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="product-wrapper">
-<div class="thumb-wrapper">
-<a href="#"><img class="img-responsive" src="images/brands/logo5.png" alt="Brand imgae" /></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="product-wrapper">
-<div class="thumb-wrapper">
-<a href="#"><img class="img-responsive" src="images/brands/logo9.png" alt="Brand imgae" /></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="product-wrapper">
-<div class="thumb-wrapper">
-<a href="#"><img class="img-responsive" src="images/brands/logo10.png" alt="Brand imgae" /></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="product-wrapper">
-<div class="thumb-wrapper">
-<a href="#"><img class="img-responsive" src="images/brands/logo4.png" alt="Brand imgae" /></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="product-wrapper">
-<div class="thumb-wrapper">
-<a href="#"><img class="img-responsive" src="images/brands/logo7.png" alt="Brand imgae" /></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-
-
-<div class="content_wrapper">
-<section id="services" class="services">
-<div class="container">
-<div class="row">
-<h2 class="section-heading">Our Services...</h2>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-md-4 col-sm-6 icon-box-wrapper">
-<div class="icon-box">
-<div class="icon-left"><span class="bi bi-rocket2"></span></div>
-<div class="icon-content">
-<h4 class="title">Website Optimization</h4>
-<p>Lorem ipsum dolor sit amet, mel vis autem habemus recteque no. Ut per tota erant.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 col-sm-6 icon-box-wrapper">
-<div class="icon-box">
-<div class="icon-left"><span class="bi bi-target-arrow"></span></div>
-<div class="icon-content">
-<h4 class="title">Keyword Targeting</h4>
-<p>Lorem ipsum dolor sit amet, mel vis autem habemus recteque no. Ut per tota erant.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 col-sm-6 icon-box-wrapper">
-<div class="icon-box">
-<div class="icon-left"><span class="bi bi-graph-bar"></span></div>
-<div class="icon-content">
-<h4 class="title">Web Analytics</h4>
-<p>Lorem ipsum dolor sit amet, mel vis autem habemus recteque no. Ut per tota erant.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 col-sm-6 icon-box-wrapper">
-<div class="icon-box">
-<div class="icon-left"><span class="bi bi-measurement"></span></div>
-<div class="icon-content">
-<h4 class="title">Content Strategy</h4>
-<p>Lorem ipsum dolor sit amet, mel vis autem habemus recteque no. Ut per tota erant.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 col-sm-6 icon-box-wrapper">
-<div class="icon-box">
-<div class="icon-left"><span class="bi bi-paper-plane"></span></div>
-<div class="icon-content">
-<h4 class="title">Email Marketing</h4>
-<p>Lorem ipsum dolor sit amet, mel vis autem habemus recteque no. Ut per tota erant.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 col-sm-6 icon-box-wrapper">
-<div class="icon-box">
-<div class="icon-left"><span class="bi bi-tie"></span></div>
-<div class="icon-content">
-<h4 class="title">Sales Promotion</h4>
-<p>Lorem ipsum dolor sit amet, mel vis autem habemus recteque no. Ut per tota erant.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-<div class="counters mt-20">
-<div class="container">
-<div class="row">
-<div class="col-md-3 col-sm-6">
-<div class="counter"> <i class="bi bi-alarm-clock"></i>
-<div class="number animateNumber" data-num="8265"> <span>8265</span></div>
-<p>Hours of work</p>
-</div>
-</div>
-<div class="col-md-3 col-sm-6">
-<div class="counter"><i class="bi bi-emo-smile"></i>
-<div class="number animateNumber" data-num="267"> <span>267</span></div>
-<p>Satisfied clients</p>
-</div>
-</div>
-<div class="col-md-3 col-sm-6">
-<div class="counter"><i class="bi bi-like"></i>
-<div class="number animateNumber" data-num="1081"> <span>1081</span></div>
-<p>Projects Completed</p>
-</div>
-</div>
-<div class="col-md-3 col-sm-6">
-<div class="counter"><i class="bi bi-cup"></i>
-<div class="number animateNumber" data-num="67"> <span>67</span></div>
-<p>Awards Won</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-
-<section id="portfolio" class="portfolio">
-<div class="container">
-<div class="row">
-<h2 class="section-heading">Our Portfolio...</h2>
-</div>
-</div>
-
-<div class="container">
-<div class="row">
-<div class="col-sm-12">
-<div class="pixxett-tabs">
-<div class="category-product">
-<ul class="pixxett-tabs">
-<li class="active"><a data-toggle="tab" href="#tab-1">Tab-1</a></li>
-<li><a data-toggle="tab" href="#tab-2">Tab-2</a></li>
-<li><a data-toggle="tab" href="#tab-3">Tab-3 </a></li>
-</ul>
-</div>
-<div class="tab-container">
-<div class="tab-panel active" id="tab-1">
-
- <div class="col-md-4 col-sm-6 col-xs-12 work php"> <a href="#"> <img src="images/gallery-img1.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img2.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img3.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img4.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img5.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img6.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-</div>
-<div class="tab-panel" id="tab-2">
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img7.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img8.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img9.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img10.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img11.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img12.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-</div>
-<div class="tab-panel" id="tab-3">
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img13.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img14.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img15.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img16.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img17.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-
-<div class="col-md-4 col-sm-6 col-xs-12 work"> <a href="#"> <img src="images/gallery-img18.jpg" alt="">
-<div class="work-inner">
-<div class="work-info"> <i class="fa fa-search"></i> </div>
-</div>
-</a>
-</div>
-</div>
-</div>
-</div>
-
-
-</div>
-</div>
-</div>
-
-</section>
-
-
-<section id="testimonial" class="testimonials-wrapper">
-<div class="container">
-<div class="row">
-<h2 class="section-heading">Client Testimonials...</h2>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div id="testimonials" class="brand_slider hidden-buttons">
-<div class="slider-items slider-width-col6">
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="testimonial">
-<h4 class="author">Person Name</h4>
-<h6 class="title">Designation</h6>
-<div class="content thumb"><img class="img-circle" alt="" src="images/testimonials1.jpg"></div>
-<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque est quasi, quas ipsam, expedita placeat facilis odio illo ex accusantium eaque.</em></p>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="testimonial">
-<h4 class="author">Person Name</h4>
-<h6 class="title">Designation</h6>
-<div class="content thumb"><img class="img-circle" alt="" src="images/testimonials2.jpg"></div>
-<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque est quasi, quas ipsam, expedita placeat facilis odio illo ex accusantium eaque.</em></p>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="testimonial">
-<h4 class="author">Person Name</h4>
-<h6 class="title">Designation</h6>
-<div class="content thumb"><img class="img-circle" alt="" src="images/testimonials3.jpg"></div>
-<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque est quasi, quas ipsam, expedita placeat facilis odio illo ex accusantium eaque.</em></p>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="testimonial">
-<h4 class="author">Person Name</h4>
-<h6 class="title">Designation</h6>
-<div class="content thumb"><img class="img-circle" alt="" src="images/testimonials4.jpg"></div>
-<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque est quasi, quas ipsam, expedita placeat facilis odio illo ex accusantium eaque.</em></p>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="testimonial">
-<h4 class="author">Person Name</h4>
-<h6 class="title">Designation</h6>
-<div class="content thumb"><img class="img-circle" alt="" src="images/testimonials1.jpg"></div>
-<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque est quasi, quas ipsam, expedita placeat facilis odio illo ex accusantium eaque.</em></p>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="testimonial">
-<h4 class="author">Person Name</h4>
-<h6 class="title">Designation</h6>
-<div class="content thumb"><img class="img-circle" alt="" src="images/testimonials2.jpg"></div>
-<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque est quasi, quas ipsam, expedita placeat facilis odio illo ex accusantium eaque.</em></p>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="testimonial">
-<h4 class="author">Person Name</h4>
-<h6 class="title">Designation</h6>
-<div class="content thumb"><img class="img-circle" alt="" src="images/testimonials3.jpg"></div>
-<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque est quasi, quas ipsam, expedita placeat facilis odio illo ex accusantium eaque.</em></p>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="testimonial">
-<h4 class="author">Person Name</h4>
-<h6 class="title">Designation</h6>
-<div class="content thumb"><img class="img-circle" alt="" src="images/testimonials4.jpg"></div>
-<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque est quasi, quas ipsam, expedita placeat facilis odio illo ex accusantium eaque.</em></p>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="testimonial">
-<h4 class="author">Person Name</h4>
-<h6 class="title">Designation</h6>
-<div class="content thumb"><img class="img-circle" alt="" src="images/testimonials1.jpg"></div>
-<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque est quasi, quas ipsam, expedita placeat facilis odio illo ex accusantium eaque.</em></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-
-<div id="team">
-<div class="container">
-<h2>Meet Our Team</h2>
-
-<div class="team_slider_wrapp">
-<div id="team_slider" class="hidden-buttons">
-<div class="slider-items slider-width-col6">
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="product-wrapper">
-<div class="thumb-wrapper">
-<div class="tmember_image">
-<img class="img-responsive" src="images/jerry_mack.jpg" alt="Jerry Mack" />
-</div>
-<div class="text_block">
-<h3 class="tmember_name">Jerry Mack</h3>
-<h4 class="tmember_info">Web Developer</h4>
-<p>
-He enjoys the finer details of a project, considering every stage of his.
-</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="product-wrapper">
-<div class="thumb-wrapper">
-<div class="text_block">
-<h3 class="tmember_name">Anna Shaw</h3>
-<h4 class="tmember_info">Project Manager</h4>
-<p>
-He enjoys the finer details of a project, considering every stage of his.
-</p>
-</div>
-<div class="tmember_image">
-<img class="img-responsive" src="images/anna_shaw.jpg" alt="Anna Shaw" />
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="product-wrapper">
-<div class="thumb-wrapper">
-<div class="tmember_image">
-<img class="img-responsive" src="images/leon_thompson.jpg" alt="Leon Thompson" />
-</div>
-<div class="text_block">
-<h3 class="tmember_name">Leon Thompson</h3>
-<h4 class="tmember_info">Web Developer</h4>
-<p>
-He enjoys the finer details of a project, considering every stage of his.
-</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="product-wrapper">
-<div class="thumb-wrapper">
-<div class="text_block">
-<h3 class="tmember_name">Sara Gomes</h3>
-<h4 class="tmember_info">Front-end Developer</h4>
-<p>
-He enjoys the finer details of a project, considering every stage of his.
-</p>
-</div>
-<div class="tmember_image">
-<img class="img-responsive" src="images/sara_gomes.jpg" alt="Sara Gomes" />
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="product-wrapper">
-<div class="thumb-wrapper">
-<div class="tmember_image">
-<img class="img-responsive" src="images/peter_decosta.jpg" alt="Peter Decosta" />
-</div>
-<div class="text_block">
-<h3 class="tmember_name">Peter Decosta</h3>
-<h4 class="tmember_info">Web Developer</h4>
-<p>
-He enjoys the finer details of a project, considering every stage of his.
-</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-item">
-<div class="item-inner">
-<div class="product-wrapper">
-<div class="thumb-wrapper">
-<div class="text_block">
-<h3 class="tmember_name">Ashley Moody</h3>
-<h4 class="tmember_info">Relationship Manager</h4>
-<p>
-He enjoys the finer details of a project, considering every stage of his.
-</p>
-</div>
-<div class="tmember_image">
-<img class="img-responsive" src="images/ashley_moody.jpg" alt="Ashley Moody" />
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-
-
-<div id="blog" class="even_div">
-<div class="container">
-<h2>From the Blog</h2>
-
-<div class="blog_wrapp">
-<div class="col-md-4 col-sm-4 col-xs-12 wow fadeIn animated">
-<div class="blog_block">
-<div class="blog_img">
-<div>
-<img class="img-responsive" alt="Blog image" src="images/gallery-img1.jpg" />
-<div class="blog_img_hoverlay"></div>
-<div class="blog_img_hoverlay_icon"><i class="fa fa-eye"></i></div>
-</div>
-<span><i class="fa fa-calendar"></i>17 Oct, 2017</span>
-</div>
-<div class="blog_info">
-<h3><a href="#"> Pellentesque habitant morbi </a></h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin venenatis magna sit amet eros lobortis, quis maximus ex consequat.</p>
-<a href="#" class="btn btn_glob">Read More</a>
-</div>
-</div>
-</div>
-<div class="col-md-4 col-sm-4 col-xs-12 wow fadeIn animated">
-<div class="blog_block">
-<div class="blog_img">
-<div>
-<img class="img-responsive" alt="Blog image" src="images/gallery-img2.jpg" />
-<div class="blog_img_hoverlay"></div>
-<div class="blog_img_hoverlay_icon"><i class="fa fa-eye"></i></div>
-</div>
-<span><i class="fa fa-calendar"></i>18 Oct, 2017</span>
-</div>
-<div class="blog_info">
-<h3><a href="#"> Pellentesque habitant morbi </a></h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin venenatis magna sit amet eros lobortis, quis maximus ex consequat.</p>
-<a href="#" class="btn btn_glob">Read More</a>
-</div>
-</div>
-</div>
-<div class="col-md-4 col-sm-4 col-xs-12 wow fadeIn animated">
-<div class="blog_block">
-<div class="blog_img">
-<div>
-<img class="img-responsive" alt="Blog image" src="images/gallery-img3.jpg" />
-<div class="blog_img_hoverlay"></div>
-<div class="blog_img_hoverlay_icon"><i class="fa fa-eye"></i></div>
-</div>
-<span><i class="fa fa-calendar"></i>20 Oct, 2017</span>
-</div>
-<div class="blog_info">
-<h3><a href="#"> Pellentesque habitant morbi </a></h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin venenatis magna sit amet eros lobortis, quis maximus ex consequat.</p>
-<a href="#" class="btn btn_glob">Read More</a>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-
-
-<section id="pricing" class="pricing">
-<div class="container">
-<h2>Select your Plan</h2>
-<h3>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-aliquip commodo consequat.
-</h3>
-
-<div class="package_wrapp">
-<div class="col-md-4 col-sm-4 col-xs-12">
-<div class="paid-pricing pricing-box pricing-element">
-<p class="header">
-<span> Premium </span>
-</p>
-<div class="pricing_wrap">
-<div class="pricing-details pricing-premium text-center">
-<div id="show-price-value1" class="price_show">
-<span class="price"><i class="fa fa-usd"></i><span id="premium-price-text">25</span></span>
-<p class="pricing-months">per month</p>
-</div>
-<div id="show-price-value2" class="get_coat">
-<p data-target="#contact-us-modal" data-toggle="modal" data-plan="premium" class="price">Contact Us</p>
-<p class="price_quote">to Get a Quote</p>
-</div>
-<p class="text-right subscribers">RAM</p>
-<div class="pricing_slider_wrap">
-<div id="pricing-slider"></div>
-</div>
-<ul class="features first">
-<li class="feature-list"><i class="fa fa-check"></i>Get Free Domain Name</li>
-<li class="feature-list"><i class="fa fa-check"></i>25GB Space</li>
-<li class="feature-list"><i class="fa fa-check"></i>30 FTP Acounts</li>
-<li class="feature-list"><i class="fa fa-check"></i>Email support</li>
-<li class="feature-list"><i class="fa fa-check"></i>40 MySQL Accounts</li>
-<li class="feature-list"><i class="fa fa-check"></i><span>Memory Allocated <span class="premium-restapi-calls"></span></span></li>
-<li class="feature-list"><i class="fa fa-check"></i>24/7 Support</li>
-<li class="feature-list"><strong>Coming Soon</strong></li>
-<li class="feature-list"><i class="fa fa-check"></i>Site Building Tool</li>
-<li class="feature-list"><i class="fa fa-check"></i>Service Uptime</li>
-</ul>
-</div>
-<div class="button-wrapper">
-<button class="btn btn-grey">Try for Free</button>
-<span class="text-color-grey">No Credit Card Required</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-4 col-sm-4 col-xs-12 pricing-flex">
-<div class="pricing-box business-plan pricing-element">
-<p class="header">
-<span> Business </span>
-</p>
-<div class="pricing_wrap">
-<div class="pricing-details pricing-premium text-center">
-<div id="business-show-price-value1" class="price_show">
-<span class="price"><i class="fa fa-usd"></i><span id="business-price-text">25</span></span>
-<p class="pricing-months">per month</p>
-</div>
-<div id="business-show-price-value2" class="get_coat">
-<p class="price" data-plan="business" data-toggle="modal" data-target="#contact-us-modal">Contact Us</p>
-<p class="price_quote">to Get a Quote</p>
-</div>
-<p class="text-right subscribers">RAM</p>
-<div class="pricing_slider_wrap">
-<div id="pricing-slider-1"></div>
-</div>
-<ul class="features">
-<li class="text-center"><strong>All features of Premium</strong></li>
-<li class="text-center plus"> + </li>
-<li class="feature-list"><i class="fa fa-check"></i>50GB Space</li>
-<li class="feature-list"><i class="fa fa-check"></i>60 FTP Acounts</li>
-<li class="feature-list"><i class="fa fa-check"></i><span>Memory Allocated <span class="business-restapi-calls"></span></span></li>
-<li class="feature-list"><i class="fa fa-check"></i>80 MySQL Accounts</li>
-<li class="feature-list"><i class="fa fa-check"></i>24/7 Support</li>
-<li class="feature-list"><strong>Coming Soon</strong></li>
-<li class="feature-list"><i class="fa fa-check"></i>Site Building Tool</li>
-<li class="feature-list"><i class="fa fa-check"></i>Service Uptime</li>
-</ul>
-</div>
-<div class="button-wrapper">
-<button class="btn btn-success">Try for Free</button>
-<span class="text-color-blue">No Credit Card Required</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-4 col-sm-4 col-xs-12 pricing-flex">
-<div class="paid-pricing pricing-box last pricing-element">
-<p class="header">
-<span> Enterprise</span>
-</p>
-<div class="pricing_wrap">
-<div class="pricing-details pricing-premium text-center get_coat">
-<p class="price" data-plan="enterprise" data-toggle="modal" data-target="#contact-us-modal">Contact Us</p>
-<p class="price_quote">to Get a Quote</p>
-<ul class="features none">
-<li class="text-center"><strong>All features of Business</strong></li>
-<li class="text-center plus"> + </li>
-<li class="feature-list"><i class="fa fa-check"></i>70GB Space</li>
-<li class="feature-list"><i class="fa fa-check"></i>80 FTP Acounts</li>
-<li class="feature-list"><i class="fa fa-check"></i>Email support</li>
-<li class="feature-list"><i class="fa fa-check"></i>100 MySQL Accounts</li>
-<li class="feature-list"><i class="fa fa-check"></i>24/7 Support</li>
-<li class="feature-list"><strong>Coming Soon</strong></li>
-<li class="feature-list"><i class="fa fa-check"></i>Site Building Tool</li>
-<li class="feature-list"><i class="fa fa-check"></i>Service Uptime</li>
-</ul>
-</div>
-<div class="button-wrapper">
-<button class="btn btn-grey">Get in Touch</button>
-<span class="text-color-grey">No Credit Card Required</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-</section>
-
-
-<div id="newsletter" class="contact">
-<div class="container">
-<div class="section-title text-center">
-<h2 class="h1">Get in Touch</h2>
-<span class="title-underline"><i class="fa fa-circle-thin"></i></span>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores similique dolor ab inventore, veritatis deserunt suscipit vitae minima.</p>
-</div>
-<div class="contact-form">
-<div class="col-md-8 col-md-offset-2">
-<form method="post"><input type="hidden" name="form-name" value="form 1">
-<div class="col-md-6">
-<input class="form-control" type="text" placeholder="Your Name" required="">
-</div>
-<div class="col-md-6">
-<input class="form-control" type="email" placeholder="Your E-Mail" required="">
-</div>
-<div class="col-md-12">
-<input class="form-control" type="text" placeholder="Subject" required="">
-</div>
-<div class="col-md-12">
-<textarea class="form-control" placeholder="Your Message" required=""></textarea>
-</div>
-<div class="col-md-12">
-<div class="send-butt">
-<a href="#">Send Message</a>
-</div>
-</div>
-</form>
-</div>
-</div>
-</div>
-</div>
-
-
-<div id="footer">
-<div class="container">
-<div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 coppyright"> &copy; 2016. All Rights Reserved. Designed by <a href="http://www.pixxett.com/" target="_blank">Pixxett.com</a> </div>
-<div class="social col-lg-6 col-md-6 col-sm-4 col-xs-4">
-<ul class="social_links">
-<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-<li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-</ul>
-</div>
-</div>
-</div>
-
-</div>
-
-
-<div class="offcanvas_menu">
-<a href="#" class="close_offcanvas"><i class="fa fa-remove"></i></a>
-<div class="offcanvas_inner">
-<div class="sp_module">
-<h3 class="sp_module_title">Startup-Pro</h3>
-<div class="sp_module_content">
-<ul class="nav menu">
-<li><a class="h_menu" href="#services">Services</a></li>
-<li><a class="h_menu" href="#portfolio">Portfolio</a></li>
-<li><a class="h_menu" href="#testimonial">Testimonial</a></li>
-<li><a class="h_menu" href="#team">Team</a></li>
-<li><a class="h_menu" href="#blog">Blog</a></li>
-<li><a class="h_menu" href="#pricing">Pricing</a></li>
-<li><a class="h_menu" href="#newsletter"> Contact Us </a> </li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="offcanvas_overlay"></div>
-
-
-<script type="text/javascript" src="<?=base_url()?>appsources/js/coatFlow.js"></script>
-<script type="text/javascript" src="<?=base_url()?>appsources/js/subscriptions.js"></script>
-<script type="text/javascript">
-		startFlowSwitcher();
-	</script>
-<script src="<?=base_url()?>appsources/js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="<?=base_url()?>appsources/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="<?=base_url()?>appsources/js/nouislider.min.js"></script>
-<script type="text/javascript" src="<?=base_url()?>appsources/js/d3_pricing.js"></script>
-<script src="<?=base_url()?>appsources/js/jquery.animateNumber.min.js"></script>
-<script type="text/javascript" src="<?=base_url()?>appsources/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="<?=base_url()?>appsources/js/js-functions.js"></script>
-<script type="text/javascript" src="<?=base_url()?>appsources/js/custom.js"></script>
-<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.js"></script>
-<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery-2.1.1.js"></script>
-<script type="text/javascript" src="<?=base_url()?>appsources/js/carousel-3d.js"></script>
-<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.carouFred.js"></script>
-<script type="text/javascript" src="<?=base_url()?>appsources/js/scripts.js"></script>
+	<section id="our-team" class="padding-top padding-bottom">
+        <div class="container">
+			<div class="row text-center section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>Our Team</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+				</div>				
+			</div>	
+            <div class="team-members text-center">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member1.jpg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>																
+							<div class="member-info">
+								<h4>Marsha Burns</h4>
+								<p>UI/UX DESIGNER</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member2.jpg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>												
+							<div class="member-info">
+								<h4>Ronald Cook</h4>
+								<p>WEB DEVELOPER</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+                    </div>
+                   <div class="col-sm-6 col-md-3">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member3.jpg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>													
+							<div class="member-info">
+								<h4>Darlene D. Lyons</h4>
+								<p>MANAGER SUPPORT</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member4.jpg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>											
+							<div class="member-info">
+								<h4>Martin Black</h4>
+								<p>Web Developer</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section><!--/#Our team-->
+	
+	<section id="hot-octopus" class="padding-top off-white">
+		<div class="container">
+			<div class="row text-center section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>Hot with Octopus</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+				</div>
+			</div>
+			<div class="hot-features">				
+				<div class="row">
+					<div class="col-sm-6 col-md-4">
+						<div class="hot-feature">
+							<div class="icon">
+								<i class="fa fa-globe"></i>
+							</div>
+							<div class="feature">
+								<h3>Web Design</h3>
+								<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+							</div>
+						</div>
+						<div class="hot-feature">
+							<div class="icon">
+								<i class="fa fa-paper-plane"></i>
+							</div>
+							<div class="feature">
+								<h3>Bootstrap</h3>
+								<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4">	
+						<img class="img-responsive" src="<?=base_url()?>appsources/images/hot-features/hot-features-bg.png" alt="" />
+					</div>				
+					<div class="col-sm-6 col-md-4">
+						<div class="hot-feature">
+							<div class="icon">
+								<i class="fa fa-camera"></i>
+							</div>
+							<div class="feature">
+								<h3>Photography</h3>
+								<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+							</div>
+						</div>
+						<div class="hot-feature">
+							<div class="icon">
+								<i class="fa fa-cog"></i>
+							</div>
+							<div class="feature">
+								<h3>Wordpress</h3>
+								<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</section><!--/#hot-octopus-->
+	
+	<div id="twitter" class="text-center parallax-section">
+		<div class="parallax-content">
+			<div class="color-overlay"></div>
+			<a class="twitter-left-control" href="#twitter-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+			<a class="twitter-right-control" href="#twitter-slide" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+						<div class="twitter-icon">
+							<i class="fa fa-twitter"></i>
+						</div>
+						<div id="twitter-slide" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="item active">
+									<a href="#">Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>5 hours ago</span></a>
+								</div>
+								<div class="item">
+									<a href="#">Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>9 hours ago</span></a>
+								</div>
+								<div class="item">                                
+								   <a href="#">Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>2 hours ago</span></a>
+								</div>
+							</div>                        
+						</div>                    
+					</div>
+				</div>
+			</div>
+        </div>
+    </div><!--/#twitter-->
+	
+	<section id="blog" class="padding-top bottom60">
+		<div class="container">
+			<div class="row text-center section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>Latest Blog</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="blog-content">
+						<div class="entry-header">
+							<div class="blog-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/blog/post1.jpg" alt="" />
+								<div class="more-link">
+									<a href="#"><i class="fa fa-plus"></i></a>
+								</div>
+							</div>							
+							<div class="post-date">
+								<h2>21<span>June</span></h2>
+							</div>							
+						</div>
+						<div class="entry-content">							
+							<h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
+							<ul class="entry-meta">
+								<li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="blog-content">
+						<div class="entry-header">
+							<div class="blog-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/blog/post2.jpg" alt="" />
+								<div class="more-link">
+									<a href="#"><i class="fa fa-plus"></i></a>
+								</div>
+							</div>							
+							<div class="post-date">
+								<h2>21<span>June</span></h2>
+							</div>							
+						</div>
+						<div class="entry-content">							
+							<h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
+							<ul class="entry-meta">
+								<li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+					</div>
+				</div>	
+				<div class="col-sm-6">
+					<div class="blog-content">
+						<div class="entry-header">
+							<div class="blog-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/blog/post3.jpg" alt="" />
+								<div class="more-link">
+									<a href="#"><i class="fa fa-plus"></i></a>
+								</div>
+							</div>							
+							<div class="post-date">
+								<h2>21<span>June</span></h2>
+							</div>							
+						</div>
+						<div class="entry-content">							
+							<h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
+							<ul class="entry-meta">
+								<li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="blog-content">
+						<div class="entry-header">
+							<div class="blog-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/blog/post4.jpg" alt="" />
+								<div class="more-link">
+									<a href="#"><i class="fa fa-plus"></i></a>
+								</div>
+							</div>							
+							<div class="post-date">
+								<h2>21<span>June</span></h2>
+							</div>							
+						</div>
+						<div class="entry-content">							
+							<h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
+							<ul class="entry-meta">
+								<li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/#blog-->
+		
+	<section id="pricing-tables" class="padding-top padding-bottom off-white">
+        <div class="container">
+            <div class="row text-center section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>Pricing Table</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+				</div>
+			</div>
+            <div class="pricing-table text-center">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-table">
+                            <h4>Starter</h4>
+                            <div class="price-icon">
+                                <i class="fa fa-bitbucket"></i>                                
+                            </div>
+							<span class="price">$19/<small>m</small></span>
+                            <ul>
+                                <li>Up to 5 Users</li>
+                                <li>Max 100 items</li>
+                                <li>Unlimited QueriesFull </li>
+                                <li>Statistics</li>
+                                <li>Great Support</li>
+                            </ul>
+                            <a href="" class="btn btn-primary">Get This Plan</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-table">
+                            <h4>Medium</h4>
+                            <div class="price-icon">
+                                <i class="fa fa-paper-plane"></i>                                
+                            </div>
+							<span class="price">$49/<small>m</small></span>
+                            <ul>
+                                <li>Up to 5 Users</li>
+                                <li>Max 100 items</li>
+                                <li>Unlimited QueriesFull </li>
+                                <li>Statistics</li>
+                                <li>Great Support</li>
+                            </ul>
+                            <a href="" class="btn btn-primary">Get This Plan</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-table featured">
+                            <h4>Business</h4>
+                            <div class="price-icon">
+                                <i class="fa fa-rocket"></i>                                
+                            </div>
+							<span class="price">$59/<small>m</small></span>
+                            <ul>
+                                <li>Up to 5 Users</li>
+                                <li>Max 100 items</li>
+                                <li>Unlimited QueriesFull </li>
+                                <li>Statistics</li>
+                                <li>Great Support</li>
+                            </ul>
+                            <a href="" class="btn btn-primary">Get This Plan</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-table">
+                            <h4>Professional</h4>
+                            <div class="price-icon">
+                                <i class="fa fa-road"></i>                                
+                            </div>
+							<span class="price">$99/<small>m</small></span>
+                            <ul>
+                                <li>Up to 5 Users</li>
+                                <li>Max 100 items</li>
+                                <li>Unlimited QueriesFull </li>
+                                <li>Statistics</li>
+                                <li>Great Support</li>
+                            </ul>
+                            <a href="" class="btn btn-primary">Get This Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/#pricing-->
+	
+	<section id="contact-us" class="parallax-section">
+		<div class="parallax-content">
+			<div class="color-overlay"></div>
+			<div class="container">
+				<div class="row text-center section-title">
+					<div class="col-sm-8 col-sm-offset-2">
+						<h2>Contact Us</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<form id="contact-form" name="contact-form" method="post" action="#">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="form-group">
+									<input type="text" name="name" class="form-control" required="required" placeholder="Name">
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="form-group">
+									<input type="email" name="email" class="form-control" required="required" placeholder="Email">
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="text" name="subject" class="form-control" required="required" placeholder="Subject">
+						</div>
+						<div class="form-group">
+							<textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Message"></textarea>
+						</div>                        
+						<div class="form-group">
+							<button type="submit" class="btn btn-submit">Send Message</button>
+						</div>
+					</form>
+				</div>
+				<div class="col-sm-6">
+					<div class="contact-info">
+						<h3>Contact Info</h3>
+						<ul>
+							<li><i class="fa fa-phone"></i> Phone: 262 695 2601</li>
+							<li><i class="fa fa-map-marker"></i> 1967 Fairfield Road Pewaukee, WI 53072 </li>
+							<li><i class="fa fa-envelope"></i><a href="#"> support@octopus-theme.com</a></li>
+						</ul>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<div class="social-icons">
+							<h3>Get in Touch</h3>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/#contact-us-->	
+		
+	<div id="gmap">
+	
+	</div><!--/#gmap-->
+	
+	<footer id="footer">
+		<div class="container text-center">
+			<p>&copy; 2015 <a href="#">Octopus</a>. All rights reserved.</p>
+		</div>
+		<a data-scroll href="#main-carousel" class="to-top"><i class="fa fa-angle-up"></i></a>
+	</footer><!--/#footer--> 
+	
+	<!--/#scripts--> 
+    <script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.js"></script>
+    <script type="text/javascript" src="<?=base_url()?>appsources/js/bootstrap.min.js"></script>	
+	<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+  	<script type="text/javascript" src="<?=base_url()?>appsources/js/gmaps.js"></script>
+  	<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.parallax.js"></script>
+	<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.countTo.js"></script>
+	<script type="text/javascript" src="<?=base_url()?>appsources/js/smooth-scroll.js"></script>
+	<script type="text/javascript" src="<?=base_url()?>appsources/js/canvas.js"></script>
+	<script type="text/javascript" src="<?=base_url()?>appsources/js/preloader.js"></script>
+    <script type="text/javascript" src="<?=base_url()?>appsources/js/main.js"></script>	
 </body>
 </html>
