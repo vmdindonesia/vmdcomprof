@@ -23,7 +23,7 @@
 	    <script src="<?=base_url()?>appsources/js/html5shiv.js"></script>
 	    <script src="<?=base_url()?>appsources/js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="<?=base_url()?>appsources/images/ico/favicon.png">
+    <link rel="shortcut icon" href="<?=base_url()?>appsources/images/ico/vmdicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?=base_url()?>appsources/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=base_url()?>appsources/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?=base_url()?>appsources/images/ico/apple-touch-icon-72-precomposed.png">
@@ -95,7 +95,7 @@
                         <li class="scroll active"><a href="#main-carousel">Home</a></li> 
 						<li class="scroll"><a href="#about-us">About Us</a></li>
 						<li class="scroll"><a href="#our-team">Team</a></li>
-						<li class="scroll"><a href="#our-team">Vission And Mission</a></li>                        
+						<li class="scroll"><a href="#our-vnm">Vission And Mission</a></li>                        
 						<li class="scroll"><a href="#portfolio">Product</a></li>
 						<!-- <li class="scroll"><a href="#our-team">Team</a></li>                        -->
                         <li class="scroll"><a href="#hot-octopus">Client</a></li> 
@@ -159,6 +159,101 @@
 		</div>
 	</section><!--/#about us-->		
 	
+	<section id="our-team" class="padding-top padding-bottom">
+        <div class="container">
+			<div class="row text-center section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>Our Team</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+				</div>				
+			</div>	
+            <div class="team-members text-center">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member1.jpg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>																
+							<div class="member-info">
+								<h4>Marsha Burns</h4>
+								<p>UI/UX DESIGNER</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member2.jpg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>												
+							<div class="member-info">
+								<h4>Ronald Cook</h4>
+								<p>WEB DEVELOPER</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+                    </div>
+                   <div class="col-sm-6 col-md-3">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member3.jpg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>													
+							<div class="member-info">
+								<h4>Darlene D. Lyons</h4>
+								<p>MANAGER SUPPORT</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member4.jpg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>											
+							<div class="member-info">
+								<h4>Martin Black</h4>
+								<p>Web Developer</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section><!--/#Our team-->
+
 	<div id="promo-one" class="parallax-section">
 		<div class="parallax-content">
 			<div class="color-overlay"></div>
@@ -506,100 +601,7 @@
 		</div>
 	</div><!--/#testimonial--> 
 
-	<section id="our-team" class="padding-top padding-bottom">
-        <div class="container">
-			<div class="row text-center section-title">
-				<div class="col-sm-8 col-sm-offset-2">
-					<h2>Our Team</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
-				</div>				
-			</div>	
-            <div class="team-members text-center">
-                <div class="row">
-                    <div class="col-sm-6 col-md-3">
-						<div class="member">
-							<div class="member-image">
-								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member1.jpg" alt="">
-								<div class="member-overlay">
-									<a href="#"><i class="fa fa-plus"></i></a>	
-								</div>
-							</div>																
-							<div class="member-info">
-								<h4>Marsha Burns</h4>
-								<p>UI/UX DESIGNER</p>
-							</div>							
-							<ul class="member-social">
-								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-							</ul>
-						</div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-						<div class="member">
-							<div class="member-image">
-								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member2.jpg" alt="">
-								<div class="member-overlay">
-									<a href="#"><i class="fa fa-plus"></i></a>	
-								</div>
-							</div>												
-							<div class="member-info">
-								<h4>Ronald Cook</h4>
-								<p>WEB DEVELOPER</p>
-							</div>							
-							<ul class="member-social">
-								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-							</ul>
-						</div>
-                    </div>
-                   <div class="col-sm-6 col-md-3">
-						<div class="member">
-							<div class="member-image">
-								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member3.jpg" alt="">
-								<div class="member-overlay">
-									<a href="#"><i class="fa fa-plus"></i></a>	
-								</div>
-							</div>													
-							<div class="member-info">
-								<h4>Darlene D. Lyons</h4>
-								<p>MANAGER SUPPORT</p>
-							</div>							
-							<ul class="member-social">
-								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-							</ul>
-						</div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-						<div class="member">
-							<div class="member-image">
-								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/member4.jpg" alt="">
-								<div class="member-overlay">
-									<a href="#"><i class="fa fa-plus"></i></a>	
-								</div>
-							</div>											
-							<div class="member-info">
-								<h4>Martin Black</h4>
-								<p>Web Developer</p>
-							</div>							
-							<ul class="member-social">
-								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-							</ul>
-						</div>
-                    </div>
-                </div>
-            </div>            
-        </div>
-    </section><!--/#Our team-->
+	
 	
 	<section id="hot-octopus" class="padding-top off-white">
 		<div class="container">
