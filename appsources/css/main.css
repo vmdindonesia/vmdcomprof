@@ -347,8 +347,8 @@ h1, h2, h3, h4, h5, h6 {
 #navigation .navbar, 
 #navigation .navbar-fixed-top   {
 	margin-bottom:0;
-	background-color:#fff;
-	border-bottom:1px solid #f5f5f5;
+	background-color:rgb(237, 238, 238);
+	border-bottom:1px solid #0b2d75;
 }
 
 .navbar-brand h1 {
@@ -816,7 +816,7 @@ h1, h2, h3, h4, h5, h6 {
 ===========================*/
 .member-info {
 	font-size:12px;
-	color:#000;
+	color:rgb(26, 24, 24);
 	font-weight:300;
 	margin-right:20%;
 }

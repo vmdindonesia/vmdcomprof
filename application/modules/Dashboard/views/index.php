@@ -401,10 +401,10 @@
 				<div class="row portfolio-items">
 					<div class="col-sm-4 col-md-3 portfolio-item print-design video">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/1.jpg" alt="">
+							<source src="<?=base_url()?>appsources/images/portfolio/kocag.mp4" alt="">
 							<div class="folio-overlay">
 								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="<?=base_url()?>appsources/images/kocag.mp4" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>	
 					</div>
@@ -647,7 +647,7 @@
 							</div>											
 							<div class="member-info">
 								<h4>Ricky Hermawan</h4>
-								<p>Mobile Developer</p>
+								<p>Web Developer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -667,7 +667,7 @@
 							</div>											
 							<div class="member-info">
 								<h4>Rizki Ramadhan</h4>
-								<p>Mobile Developer</p>
+								<p>Web Developer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -687,8 +687,8 @@
 								</div>
 							</div>											
 							<div class="member-info">
-								<h4>Ricky Hermawan</h4>
-								<p>Mobile Developer</p>
+								<h4>Rizky Maulana</h4>
+								<p>Web Developer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100007477837967&ref=bookmarks"><i class="fa fa-facebook"></i></a></li>
@@ -708,8 +708,8 @@
 								</div>
 							</div>											
 							<div class="member-info">
-								<h4>Ricky Hermawan</h4>
-								<p>Mobile Developer</p>
+								<h4>Raka Saputra</h4>
+								<p>Web Developer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -719,27 +719,7 @@
 							</ul>
 						</div>
 					</div>	
-					
-					<div class="col-sm-5 col-md-3 space-photo">
-						<div class="member">
-							<div class="member-image">
-								<img class="img-responsive" src="<?=base_url()?>appsources/images/team/riki.jpeg" alt="">
-								<div class="member-overlay">
-									<a href="#"><i class="fa fa-plus"></i></a>	
-								</div>
-							</div>											
-							<div class="member-info">
-								<h4>Ricky Hermawan</h4>
-								<p>Mobile Developer</p>
-							</div>							
-							<ul class="member-social">
-								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-							</ul>
-						</div>
-					</div>	
+				
 					<div class="col-sm-5 col-md-3 space-photo">
 						<div class="member">
 							<div class="member-image">
@@ -749,8 +729,8 @@
 								</div>
 							</div>											
 							<div class="member-info">
-								<h4>Ricky Hermawan</h4>
-								<p>Mobile Developer</p>
+								<h4>Akmal </h4>
+								<p>Web Developer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -795,7 +775,7 @@
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-4">	
-						<img class="img-responsive" src="<?=base_url()?>appsources/images/hot-features/hot-features-bg.png" alt="" />
+						<img class="img-responsive" src="<?=base_url()?>appsources/images/hot-features/devices_2.png" alt="" />
 					</div>				
 					<div class="col-sm-6 col-md-4">
 						<div class="hot-feature">
@@ -961,88 +941,7 @@
 		</div>
 	</section><!--/#blog-->
 		
-	<section id="pricing-tables" class="padding-top padding-bottom off-white">
-        <div class="container">
-            <div class="row text-center section-title">
-				<div class="col-sm-8 col-sm-offset-2">
-					<h2>Pricing Table</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
-				</div>
-			</div>
-            <div class="pricing-table text-center">
-                <div class="row">
-                    <div class="col-sm-6 col-md-3">
-                        <div class="single-table">
-                            <h4>Starter</h4>
-                            <div class="price-icon">
-                                <i class="fa fa-bitbucket"></i>                                
-                            </div>
-							<span class="price">$19/<small>m</small></span>
-                            <ul>
-                                <li>Up to 5 Users</li>
-                                <li>Max 100 items</li>
-                                <li>Unlimited QueriesFull </li>
-                                <li>Statistics</li>
-                                <li>Great Support</li>
-                            </ul>
-                            <a href="" class="btn btn-primary">Get This Plan</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <div class="single-table">
-                            <h4>Medium</h4>
-                            <div class="price-icon">
-                                <i class="fa fa-paper-plane"></i>                                
-                            </div>
-							<span class="price">$49/<small>m</small></span>
-                            <ul>
-                                <li>Up to 5 Users</li>
-                                <li>Max 100 items</li>
-                                <li>Unlimited QueriesFull </li>
-                                <li>Statistics</li>
-                                <li>Great Support</li>
-                            </ul>
-                            <a href="" class="btn btn-primary">Get This Plan</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <div class="single-table featured">
-                            <h4>Business</h4>
-                            <div class="price-icon">
-                                <i class="fa fa-rocket"></i>                                
-                            </div>
-							<span class="price">$59/<small>m</small></span>
-                            <ul>
-                                <li>Up to 5 Users</li>
-                                <li>Max 100 items</li>
-                                <li>Unlimited QueriesFull </li>
-                                <li>Statistics</li>
-                                <li>Great Support</li>
-                            </ul>
-                            <a href="" class="btn btn-primary">Get This Plan</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <div class="single-table">
-                            <h4>Professional</h4>
-                            <div class="price-icon">
-                                <i class="fa fa-road"></i>                                
-                            </div>
-							<span class="price">$99/<small>m</small></span>
-                            <ul>
-                                <li>Up to 5 Users</li>
-                                <li>Max 100 items</li>
-                                <li>Unlimited QueriesFull </li>
-                                <li>Statistics</li>
-                                <li>Great Support</li>
-                            </ul>
-                            <a href="" class="btn btn-primary">Get This Plan</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!--/#pricing-->
+		
 	
 	<section id="contact-us" class="parallax-section">
 		<div class="parallax-content">
@@ -1054,7 +953,10 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
 					</div>
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-11 space-photo1">
+				<div id="gmap"></div></div>
+				<div class="col-sm-5 space-photo">
+
 					<form id="contact-form" name="contact-form" method="post" action="#">
 						<div class="row">
 							<div class="col-sm-6">
@@ -1079,7 +981,7 @@
 						</div>
 					</form>
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-6 space-photo">
 					<div class="contact-info">
 						<h3>Contact Info</h3>
 						<ul>
@@ -1104,13 +1006,13 @@
 		</div>
 	</section><!--/#contact-us-->	
 		
-	<div id="gmap">
+	
 	
 	</div><!--/#gmap-->
 	
 	<footer id="footer">
 		<div class="container text-center">
-			<p>&copy; 2015 <a href="#">VMD</a>. All rights reserved.</p>
+			<p>&copy; 2018 <a href="#">VMD</a>. All rights reserved.</p>
 		</div>
 		<a data-scroll href="#main-carousel" class="to-top"><i class="fa fa-angle-up"></i></a>
 	</footer><!--/#footer--> 
@@ -1120,7 +1022,6 @@
     <script type="text/javascript" src="<?=base_url()?>appsources/js/bootstrap.min.js"></script>	
 	<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.prettyPhoto.js"></script>
 	<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
-  	<script type="text/javascript" src="<?=base_url()?>appsources/js/gmaps.js"></script>
   	<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.parallax.js"></script>
 	<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.isotope.min.js"></script>
 	<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.countTo.js"></script>
@@ -1128,5 +1029,22 @@
 	<script type="text/javascript" src="<?=base_url()?>appsources/js/canvas.js"></script>
 	<script type="text/javascript" src="<?=base_url()?>appsources/js/preloader.js"></script>
     <script type="text/javascript" src="<?=base_url()?>appsources/js/main.js"></script>	
+	<script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('gmap'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxAi3Sea5HXwDIuyb2nk17Ew5pOANphs4&callback=initMap">
+    </script>
+
 </body>
 </html>
