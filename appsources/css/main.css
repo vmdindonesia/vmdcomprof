@@ -23,6 +23,8 @@ ul {
   list-style: none;
   margin:0;
   padding:0;
+  padding-right: 30px;
+
 }
 
 .navbar-nav li a:hover, 
@@ -348,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
 #navigation .navbar-fixed-top   {
 	margin-bottom:0;
 	background-color:rgb(237, 238, 238);
-	border-bottom:1px solid #0b2d75;
+
 }
 
 .navbar-brand h1 {
@@ -872,7 +874,6 @@ h1, h2, h3, h4, h5, h6 {
 	position:relative;
 	overflow:hidden;
 		border-radius:100em;
-		opacity:0.5;
 		width:160px;
 		height:160px;
 		

@@ -111,7 +111,7 @@
 		<div class="container text-center">
 			<div class="row section-title">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h2>About Us</h2>
+					<h2>About <font color=#12bF98>Us</font></h2>
 					<p>VMD (Vision Mobile Developer) is a leading company to help our customer to align Business and Information Technology, Train people and Manage the future operating strategy and model to get IT Benefit, such as leverage people, Technology and Bussiness Improvement.</p>
 				</div>				
 			</div>
@@ -174,7 +174,7 @@
 		<div class="container">
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h2>Why Like Us</h2>
+					<h2>Why Like <font color=#12bF98>Us</font></h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
 				</div>				
 			</div>
@@ -289,7 +289,7 @@
 		<div class="container">
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h2> Why <span>VMD</span></h2>
+					<h2> Why <span><font color=#12bF98>VMD</font></span></h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
 				</div>				
 			</div>
@@ -510,7 +510,7 @@
         <div class="container">
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h2>Our Team</h2>0
+					<h2>our <font color=#12bF98>happy</font> team</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
 				</div>				
 			</div>	
@@ -525,14 +525,13 @@
 								</div>
 							</div>																
 							<div class="member-info">
-								<h4>Rendy Sutandy</h4>
+								<h4><b>Rendy Sutandy</b></h4>
 								<p>Founder</p>
 							</div>							
 							<ul class="member-social">
-								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="facebook" target="_blank" href="https://www.facebook.com/rendy14s"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" target="_blank" href="https://www.instagram.com/rendy14s"><i class="fa fa-instagram"></i></a></li>
 								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
 							</ul>
 						</div>
                     </div>
@@ -545,14 +544,14 @@
 								</div>
 							</div>												
 							<div class="member-info">
-								<h4>Fasha Darullah</h4>
+								<h4><b>Fasha Darullah</b></h4>
 								<p>Co-Founder</p>
 							</div>							
 							<ul class="member-social">
-								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="facebook" target="_blank" href="https://www.facebook.com/fashahdarullah"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" target="_blank" href="https://www.instagram.com/fashahdarullah"><i class="fa fa-instagram"></i></a></li>
 								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							
 							</ul>
 						</div>
                     </div>
@@ -565,14 +564,14 @@
 								</div>
 							</div>													
 							<div class="member-info">
-								<h4>Aji Tirta </h4>
+								<h4><b>Aji Tirta </b></h4>
 								<p>Mobile Developer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
 								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
 								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							
 							</ul>
 						</div>
                     </div>
@@ -585,14 +584,13 @@
 								</div>
 							</div>											
 							<div class="member-info">
-								<h4>Wira Satria</h4>
+								<h4><b>Wira Satria</b></h4>
 								<p>Mobile Developer</p>
 							</div>							
 							<ul class="member-social">
-								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="facebook" target="_blank" href="https://www.facebook.com/satria.d.kusuma.31"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" target="_blank" href="https://www.instagram.com/s_wira"><i class="fa fa-instagram"></i></a></li>
 								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -606,14 +604,13 @@
 								</div>
 							</div>											
 							<div class="member-info">
-								<h4>Akis Latuconsina</h4>
+								<h4><b>Akis Latuconsina</b></h4>
 								<p>Mobile Developer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-instagram"></i></a></li>
 								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -626,14 +623,13 @@
 								</div>
 							</div>											
 							<div class="member-info">
-								<h4>Haryanto Setiawan</h4>
+								<h4><b>Haryanto S</b></h4>
 								<p>Mobile Developer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-instagram"></i></a></li>
 								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -646,14 +642,13 @@
 								</div>
 							</div>											
 							<div class="member-info">
-								<h4>Ricky Hermawan</h4>
+								<h4><b>Ricky Hermawan</b></h4>
 								<p>Web Developer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-instagram"></i></a></li>
 								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
 							</ul>
 						</div>
 					</div>					
@@ -666,14 +661,13 @@
 								</div>
 							</div>											
 							<div class="member-info">
-								<h4>Rizki Ramadhan</h4>
+								<h4><b>Rizki Ramadhan</b></h4>
 								<p>Web Developer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-instagram"></i></a></li>
 								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -687,14 +681,13 @@
 								</div>
 							</div>											
 							<div class="member-info">
-								<h4>Rizky Maulana</h4>
+								<h4><b>Rizky Maulana</b></h4>
 								<p>Web Developer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100007477837967&ref=bookmarks"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="twitter" target="_blannk" href="https://www.instagram.com/rizky_mulder/"><i class="fa fa-instagram"></i></a></li>
 								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
 							</ul>
 						</div>
 					</div>	
@@ -708,14 +701,13 @@
 								</div>
 							</div>											
 							<div class="member-info">
-								<h4>Raka Saputra</h4>
+								<h4><b>Raka Saputra</b></h4>
 								<p>Web Developer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-instagram"></i></a></li>
 								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
 							</ul>
 						</div>
 					</div>	
@@ -729,14 +721,13 @@
 								</div>
 							</div>											
 							<div class="member-info">
-								<h4>Akmal </h4>
-								<p>Web Developer</p>
+								<h4><b>Akmal Fajar </b></h4>
+								<p>Tehnical Writer</p>
 							</div>							
 							<ul class="member-social">
 								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-instagram"></i></a></li>
 								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
 							</ul>
 						</div>
 					</div>							
@@ -748,7 +739,7 @@
 		<div class="container">
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h2>Hot with VMD</h2>
+					<h2>Hot with <font color=#12bF98> VMD </font></h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
 				</div>
 			</div>
@@ -836,7 +827,7 @@
 		<div class="container">
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h2>Latest Blog</h2>
+					<h2>Latest <font color=#12bF98>Blog</font></h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
 				</div>
 			</div>
@@ -949,7 +940,7 @@
 			<div class="container">
 				<div class="row text-center section-title">
 					<div class="col-sm-8 col-sm-offset-2">
-						<h2>Contact Us</h2>
+						<h2>Contact <font color=#12bF98>Us</font></h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
 					</div>
 				</div>
@@ -985,9 +976,9 @@
 					<div class="contact-info">
 						<h3>Contact Info</h3>
 						<ul>
-							<li><i class="fa fa-phone"></i> Phone: 262 695 2601</li>
-							<li><i class="fa fa-map-marker"></i> 1967 Fairfield Road Pewaukee, WI 53072 </li>
-							<li><i class="fa fa-envelope"></i><a href="#"> support@VMD-theme.com</a></li>
+							<li><i class="fa fa-phone"></i> Phone: (+62) 852 1910 0674</li>
+							<li><i class="fa fa-map-marker"></i> DKI Jakarta, Jakarta Barat </li>
+							<li><i class="fa fa-envelope"></i><a href="#"> vmd.idn@gmail.com</a></li>
 						</ul>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 						<div class="social-icons">
@@ -996,7 +987,6 @@
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
 								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
 							</ul>
 						</div>
@@ -1031,7 +1021,7 @@
     <script type="text/javascript" src="<?=base_url()?>appsources/js/main.js"></script>	
 	<script>
       function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
+        var uluru = {lat: -6.184809, lng: 106.769687};
         var map = new google.maps.Map(document.getElementById('gmap'), {
           zoom: 4,
           center: uluru
