@@ -1,0 +1,65 @@
+.center-client {
+    margin-left: 30% !important;
+    width: 60%;
+}
+
+.container .three.columns {
+    width: 160px;
+}
+
+@media only screen and (min-width:1200px) {
+    .container {
+        width: 1120px
+    }
+    
+    .container .columns {
+        margin-left: 10px;
+        margin-right: 10px
+    }
+
+    .container .three.columns {
+        width: 190px
+    }
+}
+
+@media only screen and (max-width:959px) {
+    .container {
+        width: 745px
+    }
+
+    .container .columns {
+        margin-left: 10px;
+        margin-right: 10px
+    }
+
+    .container .three.columns {
+        width: 124px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .container,
+    .container .three.columns {
+        width: 300px
+    }
+    .container .columns {
+        margin: 0 0 14px
+    }
+
+    .container .three.columns.logos {
+        width: 50%
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .container .three.columns {
+        width: 30%
+    }
+}
+
+.container .columns {
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
