@@ -14,6 +14,7 @@
     <link href="<?=base_url()?>appsources/css/font-awesome.min.css" rel="stylesheet">
 	<link href="<?=base_url()?>appsources/css/prettyPhoto.css" rel="stylesheet">	
 	<link href="<?=base_url()?>appsources/css/main.css" rel="stylesheet">
+	<link href="<?=base_url()?>appsources/css/main-vmd.css" rel="stylesheet">
 	<link href="<?=base_url()?>appsources/css/responsive.css" rel="stylesheet">
 	
 	<!--Google Font-->
@@ -88,7 +89,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><h1><img class="img-responsive" width="100px" style="margin-left:120%" src="<?=base_url()?>appsources/images/vmd.png" alt="logo"></h1></a>
+                    <a class="navbar-brand" href="#main-carousel"><h1><img class="img-responsive" width="100px" style="margin-left:120%" src="<?=base_url()?>appsources/images/vmd.png" alt="logo"></h1></a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -98,7 +99,7 @@
 						<li class="scroll"><a href="#our-team">Vission And Mission</a></li>                        
 						<li class="scroll"><a href="#portfolio">Product</a></li>
 						<!-- <li class="scroll"><a href="#our-team">Team</a></li>                        -->
-                        <li class="scroll"><a href="#hot-VMD">Client</a></li> 
+                        <li class="scroll"><a href="#our-clients">Client</a></li> 
                         <!-- <li class="scroll"><a href="#blog">Blog</a></li> -->
                         <li class="scroll"><a href="#contact-us">Contact</a></li>                        
                     </ul>
@@ -125,7 +126,7 @@
 					</div>
 					<div class="about-text">
 						<h3>Creative Team</h3>
-						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+						<!-- <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p> -->
 					</div>					
 				</div>
 				<div class="col-md-3 col-sm-6 about-content">					
@@ -134,7 +135,7 @@
 					</div>
 					<div class="about-text">
 						<h3>Unique Design</h3>
-						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+						<!-- <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p> -->
 					</div>					
 				</div>
 				<div class="col-md-3 col-sm-6 about-content">					
@@ -143,7 +144,7 @@
 					</div>
 					<div class="about-text">
 						<h3>24/7 Support</h3>
-						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+						<!-- <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p> -->
 					</div>					
 				</div>
 				<div class="col-md-3 col-sm-6 about-content">					
@@ -152,20 +153,20 @@
 					</div>
 					<div class="about-text">
 						<h3>Great Security</h3>
-						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+						<!-- <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p> -->
 					</div>					
 				</div>
 			</div>
 		</div>
 	</section><!--/#about us-->		
 	
-	<div id="promo-one" class="parallax-section">
+	<div class="parallax-section">
 		<div class="parallax-content">
 			<div class="color-overlay"></div>
 			<div class="container text-center">
 				<h2>VMD has unique and modern Products!</h2>
 				<p>Develope for Creative Software</p>
-				<a href="#" class="btn btn-primary">Book!</a>
+				<!-- <a href="#" class="btn btn-primary">Book!</a> -->
 			</div>
 		</div>		
 	</div><!--/parallax-section--> 
@@ -175,7 +176,7 @@
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
 					<h2>Why Like <font color=#12bF98>Us</font></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p> -->
 				</div>				
 			</div>
 			<div class="row text-center like-us">
@@ -185,7 +186,7 @@
 					</div>
 					<div class="about-text">
 						<h3>Fresh Design</h3>
-						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+						<!-- <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p> -->
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 about-content">
@@ -194,7 +195,7 @@
 					</div>
 					<div class="about-text">
 						<h3>Useful features</h3>
-						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+						<!-- <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p> -->
 					</div>					
 				</div>
 				<div class="col-md-3 col-sm-6 about-content">					
@@ -203,10 +204,10 @@
 					</div>
 					<div class="about-text">
 						<h3>Easy Customization</h3>
-						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+						<!-- <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p> -->
 					</div>					
 				</div>
-				<div class="col-md-3 col-sm-6 about-content">					
+				<!-- <div class="col-md-3 col-sm-6 about-content">					
 					<div class="about-icon">
 						<i class="fa fa-coffee"></i>							
 					</div>
@@ -214,8 +215,8 @@
 						<h3>Preset Style</h3>
 						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
 					</div>					
-				</div>
-				<div class="col-md-3 col-sm-6 about-content">					
+				</div> -->
+				<!-- <div class="col-md-3 col-sm-6 about-content">					
 					<div class="about-icon">
 						<i class="fa fa-laptop"></i>							
 					</div>
@@ -223,17 +224,17 @@
 						<h3>Free Updates</h3>
 						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
 					</div>					
-				</div>
+				</div> -->
 				<div class="col-md-3 col-sm-6 about-content">					
 					<div class="about-icon">
 						<i class="fa fa-paper-plane"></i>							
 					</div>
 					<div class="about-text">
 						<h3>Fully Responsive</h3>
-						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+						<!-- <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p> -->
 					</div>					
 				</div>
-				<div class="col-md-3 col-sm-6 about-content">					
+				<!-- <div class="col-md-3 col-sm-6 about-content">					
 					<div class="about-icon">
 						<i class="fa fa-leaf"></i>							
 					</div>
@@ -241,8 +242,8 @@
 						<h3>Dropdown Menu</h3>
 						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
 					</div>					
-				</div>
-				<div class="col-md-3 col-sm-6 about-content">					
+				</div> -->
+				<!-- <div class="col-md-3 col-sm-6 about-content">					
 					<div class="about-icon">
 						<i class="fa fa-group (alias)"></i>							
 					</div>
@@ -250,7 +251,7 @@
 						<h3>Typhography</h3>
 						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
 					</div>					
-				</div>				
+				</div>				 -->
 			</div>
 		</div>
 	</section><!--/why-us--> 
@@ -262,22 +263,22 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<i class="fa fa-clock-o"></i>	
-						<h3 class="timer" data-to="2700" data-speed="7000" data-from="0">hidden-time</h3>					
+						<h3 class="timer" data-to="400" data-speed="7000" data-from="0">hidden-time</h3>					
 						<h4>Hours Of Work</h4>
 					</div>
 					<div class="col-sm-3">
 						<i class="fa fa-heart"></i>	
-						<h3 class="timer" data-to="32" data-speed="5000" data-from="0">hidden-time</h3>
+						<h3 class="timer" data-to="14" data-speed="5000" data-from="0">hidden-time</h3>
 						<h4>Clients Worked</h4>
 					</div>
 					<div class="col-sm-3">
 						<i class="fa fa-paper-plane"></i>	
-						<h3 class="timer" data-to="178" data-speed="5000" data-from="0">hidden-time</h3>
+						<h3 class="timer" data-to="14" data-speed="5000" data-from="0">hidden-time</h3>
 						<h4>Project Done</h4>
 					</div>
 					<div class="col-sm-3">
 						<i class="fa fa-coffee"></i>	
-						<h3 class="timer" data-to="45" data-speed="5000" data-from="0">hidden-time</h3>
+						<h3 class="timer" data-to="1050" data-speed="5000" data-from="0">hidden-time</h3>
 						<h4>Cups of Coffee</h4>
 					</div>
 				</div>			
@@ -285,7 +286,7 @@
 		</div>		
 	</div><!--/parallax-section-->		
 	
-	<section id="why-VMD" class="padding-top padding-bottom">
+	<!-- <section id="why-VMD" class="padding-top padding-bottom">
 		<div class="container">
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
@@ -378,24 +379,21 @@
 				</div>
 			</div>
 		</div>
-	</section><!--/#why-VMD-->
+	</section>/#why-VMD -->
 	
 	<section id="portfolio" class="padding-top padding-bottom off-white">
 		<div class="container">
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
 					<h2>Portfolio</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p> -->
 				</div>				
 			</div>			
 			<div class="portfolio-wrapper">
 				<ul class="portfolio-filter text-center">                                         
 					<li><a class="active" href="#" data-filter="*">All</a></li>	
-					<li><a href="#" data-filter=".photography">Photography</a></li>
-					<li><a href="#" data-filter=".video">Video</a></li>
-					<li><a href="#" data-filter=".print-design">Print Design</a></li>
-					<li><a href="#" data-filter=".graphic">Graphic</a></li>
-					<li><a href="#" data-filter=".art">Art</a></li>
+					<li><a href="#" data-filter=".photography">Website</a></li>
+					<li><a href="#" data-filter=".video">Mobile</a></li>
 				</ul><!--/#portfolio-filter-->
 				
 				<div class="row portfolio-items">
@@ -408,27 +406,9 @@
 							</div>
 						</div>	
 					</div>
-					<div class="col-sm-4 col-md-3 portfolio-item graphic video">
-						<div class="portfolio-content">
-							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/2.jpg" alt="">
-							<div class="folio-overlay">
-								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
-							</div>
-						</div>	
-					</div>
 					<div class="col-sm-4 col-md-3 portfolio-item print-design art">
 						<div class="portfolio-content">
 							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/3.jpg" alt="">
-							<div class="folio-overlay">
-								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-4 col-md-3 portfolio-item video art photography">
-						<div class="portfolio-content">
-							<img class="img-responsive" src="<?=base_url()?>appsources/images/portfolio/4.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
 								<a class="folio-detail" href="<?=base_url()?>appsources/images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
@@ -476,42 +456,12 @@
 		</div>
 	</section><!--/#portfolio-->	
 	
-	<div id="testimonial" class="parallax-section">
-		<div class="parallax-content">
-			<div class="color-overlay"></div>
-			<a class="testimony-left" href="#testimonial-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-			<a class="testimony-right" href="#testimonial-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-8 col-sm-offset-2">
-						<div id="testimonial-carousel" class="carousel slide" data-ride="carousel">						
-							<div class="carousel-inner text-center">							
-								<div class="item active">							
-									<img class="img-responsive img-circle" src="<?=base_url()?>appsources/images/testimonial/client1.jpg" alt="" />
-									<p>VMD is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team VMD. <span>CEO, Google</span> </p>							
-								</div>
-								<div class="item">							
-									<img class="img-responsive img-circle" src="<?=base_url()?>appsources/images/testimonial/client2.jpg" alt="" />
-									<p>VMD is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team VMD. <span>CEO, Google</span> </p>							
-								</div>
-								<div class="item">							
-									<img class="img-responsive img-circle" src="<?=base_url()?>appsources/images/testimonial/client3.jpg" alt="" />
-									<p>VMD is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team VMD. <span>CEO, Google</span> </p>							
-								</div>
-							</div>
-						</div>					
-					</div>
-				</div>				
-			</div>
-		</div>
-	</div><!--/#foto team--> 
-
 	<section id="our-team" class="padding-top padding-bottom">
         <div class="container">
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
 					<h2>our <font color=#12bF98>happy</font> team</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p> -->
 				</div>				
 			</div>	
             <div class="team-members text-center">
@@ -740,7 +690,7 @@
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
 					<h2>Hot with <font color=#12bF98> VMD </font></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p> -->
 				</div>
 			</div>
 			<div class="hot-features">				
@@ -752,7 +702,7 @@
 							</div>
 							<div class="feature">
 								<h3>Web Design</h3>
-								<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+								<p>Fresh with new design from us, not duplicate with other website.</p>
 							</div>
 						</div>
 						<div class="hot-feature">
@@ -761,7 +711,7 @@
 							</div>
 							<div class="feature">
 								<h3>Bootstrap</h3>
-								<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+								<p>Always responsive in desktop or mobile view ord container you are.</p>
 							</div>
 						</div>
 					</div>
@@ -774,8 +724,8 @@
 								<i class="fa fa-camera"></i>
 							</div>
 							<div class="feature">
-								<h3>Photography</h3>
-								<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+								<h3>Mobile</h3>
+								<p>Powerfull with new framework and be done nice see with function and engine.</p>
 							</div>
 						</div>
 						<div class="hot-feature">
@@ -783,8 +733,8 @@
 								<i class="fa fa-cog"></i>
 							</div>
 							<div class="feature">
-								<h3>Wordpress</h3>
-								<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+								<h3>Desktop</h3>
+								<p>With framework we build, we promise powerfull application.</p>
 							</div>
 						</div>
 					</div>
@@ -793,145 +743,31 @@
 		</div>
 	</section><!--/#hot-VMD-->
 	
-	<div id="twitter" class="text-center parallax-section">
-		<div class="parallax-content">
-			<div class="color-overlay"></div>
-			<a class="twitter-left-control" href="#twitter-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-			<a class="twitter-right-control" href="#twitter-slide" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-8 col-sm-offset-2">
-						<div class="twitter-icon">
-							<i class="fa fa-twitter"></i>
-						</div>
-						<div id="twitter-slide" class="carousel slide" data-ride="carousel">
-							<div class="carousel-inner">
-								<div class="item active">
-									<a href="#">VMD is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>5 hours ago</span></a>
-								</div>
-								<div class="item">
-									<a href="#">VMD is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>9 hours ago</span></a>
-								</div>
-								<div class="item">                                
-								   <a href="#">VMD is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>2 hours ago</span></a>
-								</div>
-							</div>                        
-						</div>                    
-					</div>
-				</div>
-			</div>
-        </div>
-    </div><!--/#twitter-->
-	
-	<section id="blog" class="padding-top bottom60">
-		<div class="container">
+		
+	<section id="our-clients" class="padding-top padding-bottom">
+        <div class="container">
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h2>Latest <font color=#12bF98>Blog</font></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+					<h2>our <font color=#12bF98>happy</font> clients</h2>
+				</div>				
+			</div>	
+
+			<div class="center-client">
+				<div class="three columns logos" style="height:120px;margin-top:10px;">
+					<center>
+						<img src="<?=base_url()?>appsources/images/team/logo.png" alt="okbisa" title="okbisa" class="cllogo" width="80%">
+					</center>
+				</div>
+
+				<div class="three columns logos" style="height:120px;margin-top:10px;">
+					<center>
+						<img src="<?=base_url()?>appsources/images/team/tangsel.png" alt="okbisa" title="okbisa" class="cllogo" width="80%">
+					</center>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-6">
-					<div class="blog-content">
-						<div class="entry-header">
-							<div class="blog-image">
-								<img class="img-responsive" src="<?=base_url()?>appsources/images/blog/post1.jpg" alt="" />
-								<div class="more-link">
-									<a href="#"><i class="fa fa-plus"></i></a>
-								</div>
-							</div>							
-							<div class="post-date">
-								<h2>21<span>June</span></h2>
-							</div>							
-						</div>
-						<div class="entry-content">							
-							<h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
-							<ul class="entry-meta">
-								<li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
-								<li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
-								<li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
-							</ul>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="blog-content">
-						<div class="entry-header">
-							<div class="blog-image">
-								<img class="img-responsive" src="<?=base_url()?>appsources/images/blog/post2.jpg" alt="" />
-								<div class="more-link">
-									<a href="#"><i class="fa fa-plus"></i></a>
-								</div>
-							</div>							
-							<div class="post-date">
-								<h2>21<span>June</span></h2>
-							</div>							
-						</div>
-						<div class="entry-content">							
-							<h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
-							<ul class="entry-meta">
-								<li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
-								<li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
-								<li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
-							</ul>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-						</div>
-					</div>
-				</div>	
-				<div class="col-sm-6">
-					<div class="blog-content">
-						<div class="entry-header">
-							<div class="blog-image">
-								<img class="img-responsive" src="<?=base_url()?>appsources/images/blog/post3.jpg" alt="" />
-								<div class="more-link">
-									<a href="#"><i class="fa fa-plus"></i></a>
-								</div>
-							</div>							
-							<div class="post-date">
-								<h2>21<span>June</span></h2>
-							</div>							
-						</div>
-						<div class="entry-content">							
-							<h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
-							<ul class="entry-meta">
-								<li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
-								<li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
-								<li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
-							</ul>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="blog-content">
-						<div class="entry-header">
-							<div class="blog-image">
-								<img class="img-responsive" src="<?=base_url()?>appsources/images/blog/post4.jpg" alt="" />
-								<div class="more-link">
-									<a href="#"><i class="fa fa-plus"></i></a>
-								</div>
-							</div>							
-							<div class="post-date">
-								<h2>21<span>June</span></h2>
-							</div>							
-						</div>
-						<div class="entry-content">							
-							<h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
-							<ul class="entry-meta">
-								<li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
-								<li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
-								<li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
-							</ul>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-						</div>
-					</div>
-				</div>
-			</div>
+
 		</div>
-	</section><!--/#blog-->
-		
+    </section><!--/#Our Client-->
 		
 	
 	<section id="contact-us" class="parallax-section">
@@ -941,7 +777,7 @@
 				<div class="row text-center section-title">
 					<div class="col-sm-8 col-sm-offset-2">
 						<h2>Contact <font color=#12bF98>Us</font></h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p> -->
 					</div>
 				</div>
 				<div class="col-sm-11 space-photo1">
@@ -980,7 +816,7 @@
 							<li><i class="fa fa-map-marker"></i> DKI Jakarta, Jakarta Barat </li>
 							<li><i class="fa fa-envelope"></i><a href="#"> vmd.idn@gmail.com</a></li>
 						</ul>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p>Contact us for get a good deal performance, speed, quality and prices application!.</p>
 						<div class="social-icons">
 							<h3>Get in Touch</h3>
 							<ul>
@@ -1002,7 +838,7 @@
 	
 	<footer id="footer">
 		<div class="container text-center">
-			<p>&copy; 2018 <a href="#">VMD</a>. All rights reserved.</p>
+			<p>&copy; 2018 <a href="#">VMDTeam</a>. All rights reserved.</p>
 		</div>
 		<a data-scroll href="#main-carousel" class="to-top"><i class="fa fa-angle-up"></i></a>
 	</footer><!--/#footer--> 

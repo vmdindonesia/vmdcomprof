@@ -11,6 +11,15 @@
 =======Typography=========
 ==========================*/
 
+
+
+.cllogo {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: -webkit-filter .2s,transform .2s;
+	transition: -webkit-filter .2s,filter .2s,transform .2s;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -920,6 +929,19 @@ h1, h2, h3, h4, h5, h6 {
 	width: 50px;
 	opacity:1;
 }
+
+.member .client-images {
+	position:relative;
+	overflow:hidden;
+		width:160px;
+		height:160px;
+		
+}
+
+.member .row-client {
+	margin: auto;
+}
+
 
 /*=========================
 =====Hot-octopus CSS=======
