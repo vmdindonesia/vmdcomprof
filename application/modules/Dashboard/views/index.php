@@ -755,13 +755,14 @@
 			<div class="center-client">
 				<div class="three columns logos" style="height:120px;margin-top:10px;">
 					<center>
-						<img src="<?=base_url()?>appsources/images/team/logo.png" alt="okbisa" title="okbisa" class="cllogo" width="80%">
+						<a target="_blank" href="http://fwc.vmdindonesia.com/">   <img src="<?=base_url()?>appsources/images/team/logo.png" alt="okbisa" title="okbisa" width="80%">
+						</a>
 					</center>
 				</div>
 
 				<div class="three columns logos" style="height:120px;margin-top:10px;">
 					<center>
-						<img src="<?=base_url()?>appsources/images/team/tangsel.png" alt="okbisa" title="okbisa" class="cllogo" width="80%">
+						<img src="<?=base_url()?>appsources/images/team/tangsel.png" alt="okbisa" title="okbisa"  width="80%">
 					</center>
 				</div>
 			</div>
