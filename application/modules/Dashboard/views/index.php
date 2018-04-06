@@ -845,6 +845,7 @@
 	</footer><!--/#footer--> 
 	
 	<!--/#scripts--> 
+	
     <script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.js"></script>
     <script type="text/javascript" src="<?=base_url()?>appsources/js/bootstrap.min.js"></script>	
 	<script type="text/javascript" src="<?=base_url()?>appsources/js/jquery.prettyPhoto.js"></script>
@@ -872,6 +873,19 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxAi3Sea5HXwDIuyb2nk17Ew5pOANphs4&callback=initMap">
     </script>
-
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5ac673974b401e45400e61fe/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 </body>
+
 </html>
